@@ -1,2 +1,2 @@
-# sluisbrinkie-eurorack-published
-Published Modules of the Sluisbrinkie project
+# Published Modules of the Sluisbrinkie project
+
