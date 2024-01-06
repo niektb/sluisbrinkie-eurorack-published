@@ -1,5 +1,5 @@
 # Sluisbrinkie Kepler
-The Kepler (named after a German scientist) is a digital module for 3U Eurorack systems. This module is my take at porting the Bastl Kastle Arp to Eurorack. The size of this module is about 14HP.
+The Kepler (named after a German scientist) is a digital module for 3U Eurorack systems. This module is my take at porting the Bastl Kastle Arp to Eurorack. The size of this module is about 14HP (it's a little bit smaller than most 14HP modules).
 
 ![Fully built module](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/5b2d75d8-9da9-4ddc-9673-966e0306e4b7)
 
