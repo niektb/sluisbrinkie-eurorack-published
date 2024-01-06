@@ -15,8 +15,8 @@ In case you bought a PCB (with assembled SMD components) and panel from me, ther
 The firmware has to be flashed using the Arduino IDE and an ISP programmer. The firmware for the LFO Chip and VCO chip can be found in the Software folder (check the silkscreen on the PCB to see which chip is which). [Instructions on how to flash](https://highlowtech.org/?p=1695).
 
 ## Things that are useful to know:
-### Potentiometer Knob size
+### Potentiometer knob size
 Be aware: the potmeters are fitted quite close together so big knobs won't fit. For reference, the knobs used on the photo above are Black Small Unskirted Intellijel/Sifam Plastic Knobs which have a diameter of 11.5mm.
 
-### A word about voltage levels. 
+### A word about voltage levels
 The voltage levels of this module are 0-5V, both in- and output. Negative CV Voltages will be clipped away. The Audio outputs are also DC-coupled.
