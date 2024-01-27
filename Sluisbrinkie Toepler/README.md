@@ -3,13 +3,8 @@ The Toepler (named after a German scientist) is a digital module for 3U Eurorack
 
 ![20231115_192806](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/faaf6aef-b2a3-4863-9b0b-0fc373ffbd65)
 
-
-
 Overview of connections:
-
 ![20240127_094107](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/52aae7f0-b71f-4000-a554-3affe9406e22)
-
-
 
 - 1x USB Type B (for USB MIDI and flashing firmware)
 - 1x MIDI TRS In
@@ -36,17 +31,17 @@ One point of attention: the orientation of the bottom 3 potentiometers is flippe
 
 ## Writing software
 ### Flashing the firmware
-The bootloader has to be flashed using the Arduino IDE and an ISP programmer. After that, a USB-B cable can be used to flash the microcontroller.
+The bootloader has to be flashed using the Arduino IDE and an ISP programmer. After that, a USB-B cable can be used to flash the microcontroller. The Toepler will show up as 'Arduino Micro' (as they are based around the same microcontroller).
 ### Writing software
 The Software folder contains a number of examples that I wrote or ported over. I would recommend to start with the sketches in Hardware Test to verify that everything was built correctly. After that, install the Mozzi library and hop over to the Mozzi examples and try some of those.
+The Software map contains a header file 'PinDef.h' that maps the Toepler pins to an Arduino Micro number. This means you can 
 ### A word about voltage levels
 The voltage levels of the microcontroller are 0-5V. The Audio Output is DC-Coupled and between 0 and 5V. The CV inputs are -5V to 5V and are mapped to a 0-5V range using attenuation and offset. This is especially important for CV4, in case you are using it for pitch input. The microcontroller essentially sees 1/2Voct and you need to compensate for this in software. Also, a 0V input will give an ADC reading of about 512.
 
 ## Things that are useful to know
 ### Tips for assembly
-![20231115_192708-EDIT](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/a5d1d355-d6c3-440f-9783-a198386a5951)
-
-- Save the LED for last and initially solder just one leg, then you can easily line up the LED with the hole. The hole is a bit bigger than needed because I think that that looks nicer. I also think it looks nicer when the LED is a little 'sunk' and doesn't extend above the frontpanel.
+- Save the LED for last and initially solder just one leg, then you can easily line up the LED with the hole. The hole is a bit bigger than needed because I think that that looks nicer. I also think it looks nicer when the LED is a little 'sunk' and doesn't extend above the frontpanel but that's up to you of course.
 - If you use the boxed header (like I did), it's slightly bigger than the footprint but it should still fit. Be sure to check the polarity before soldering it to the board.
 
+![20231115_192708-EDIT](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/a5d1d355-d6c3-440f-9783-a198386a5951)
 
