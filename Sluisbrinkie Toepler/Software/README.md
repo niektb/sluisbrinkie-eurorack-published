@@ -5,6 +5,8 @@ This folder contains example firmwares for the Sluisbrinkie Toepler.
 This folder contains sketches to help check the hardware assembly for errors.
 ### CvInTest
 This firmware maps CV1-4 to LED1-3 and LED RX (on the bottomside).
+### MidiInTest
+This firmware has a simple sine wave oscillator with AD Envelope that listens to the TRS Midi In. OUT/THRU is configured to THRU so you can connect external gear (and verify both MIDI IN and MIDI OUT circuitry). https://youtube.com/shorts/gK8fdJCA_zw?si=l2aoJfFXCB2OVIv1
 ### TriggerTest
 This firmware toggles the Trigger Out at a 1 second interval. It also blinks LED3 to reflect this. TriggerIn 1 and 2 are mapped to LED1 and LED2 respectively. Patch TriggerOut to both TriggerIns to verify that that section of the circuitry is working.
 
