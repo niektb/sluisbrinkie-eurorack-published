@@ -39,8 +39,8 @@ Update 27-01-2024: I've also made an ARP Frontpanel, slightly smaller at 12HP. T
 
 ![20240127_114050](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/c6d7d34a-cf09-471c-908f-455df3c375b1)
 
-### Potentiometer knob size
-Be aware: the potmeters are fitted quite close together so big knobs won't fit. For reference, the knobs used on the photo above are Black Small Unskirted Intellijel/Sifam Plastic Knobs which have a diameter of 11.5mm.
+### Potentiometers and knob size
+Be aware: the potmeters are fitted quite close together so big knobs won't fit. For reference, the knobs used on the photo above are Black Small Unskirted Intellijel/Sifam Plastic Knobs which have a diameter of 11.5mm. I use the Bourns PVT09 series potentiometers in my builds, they are verified to fit.
 
 ### A word about voltage levels
 The voltage levels of this module are 0-5V, both in- and output. Negative CV Voltages will be clipped away. The Audio outputs are also DC-coupled. This is also the case for the 'MIX OR OUT'. This can be used as a passive mixer to mix in audio with the main oscillator but you should not apply a bipolar audio signal to this input (only modules that have a DC-coupled 0-5V output such as the Kepler (or Toepler, which is one of my other modules). On the upside, the SQR output can be used to modulate the CV inputs (yes, this actually works great!)
