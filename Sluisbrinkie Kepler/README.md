@@ -36,6 +36,7 @@ RESET > CLK IN,
 LFO > TEMPO,
 MODE > CHORD.
 Update 27-01-2024: I've also made an ARP Frontpanel, slightly smaller at 12HP. This clarifies the mapping also a bit more.
+
 ![20240127_114050](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/c6d7d34a-cf09-471c-908f-455df3c375b1)
 
 ### Potentiometer knob size
