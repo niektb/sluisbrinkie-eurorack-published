@@ -35,6 +35,8 @@ SQR > BASS,
 RESET > CLK IN,
 LFO > TEMPO,
 MODE > CHORD.
+Update 27-01-2024: I've also made an ARP Frontpanel, slightly smaller at 12HP. This clarifies the mapping also a bit more.
+![20240127_114050](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/c6d7d34a-cf09-471c-908f-455df3c375b1)
 
 ### Potentiometer knob size
 Be aware: the potmeters are fitted quite close together so big knobs won't fit. For reference, the knobs used on the photo above are Black Small Unskirted Intellijel/Sifam Plastic Knobs which have a diameter of 11.5mm.
