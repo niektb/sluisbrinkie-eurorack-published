@@ -4,6 +4,7 @@ The Toepler (named after a German scientist) is a digital module for 3U Eurorack
 ![20231115_192806](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/faaf6aef-b2a3-4863-9b0b-0fc373ffbd65)
 
 Overview of connections:
+
 ![20240127_094107](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/52aae7f0-b71f-4000-a554-3affe9406e22)
 
 - 1x USB Type B (for USB MIDI and flashing firmware)
