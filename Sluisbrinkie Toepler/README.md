@@ -1,43 +1,52 @@
-# Sluisbrinkie Kepler
-The Kepler (named after a German scientist) is a digital module for 3U Eurorack systems. This module is my take at porting the Bastl Kastle Arp to Eurorack. The size of this module is about 14HP (it's a little bit smaller than most 14HP modules).
+# Sluisbrinkie Toepler
+The Toepler (named after a German scientist) is a digital module for 3U Eurorack systems, positioned as a software development platform. The core of the module consists of a Atmega32u4 and is compatible with Arduino and the well-known Mozzi Library. The size is 14 HP. Initially I made this module for myself. I wanted a development platform with which I could experiment with various Arduino libraries and use them in a broad context and also interface. e broad range of connectivity allows it to be used as a swiss army knife in a wide range of situations. MIDI and Mozzi also allow the module to be truly polyphonic. The most obvious use case is a digital VCO but audio effects such as a Wavefolder, Clipper, Chorus or Pitch Shifter are also possible.
 
-![Fully built module](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/5b2d75d8-9da9-4ddc-9673-966e0306e4b7)
+![20231115_192806](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/faaf6aef-b2a3-4863-9b0b-0fc373ffbd65)
+
+
+
+Overview of connections:
+
+![20240127_094107](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/52aae7f0-b71f-4000-a554-3affe9406e22)
+
+
+
+- 1x USB Type B (for USB MIDI and flashing firmware)
+- 1x MIDI TRS In
+- 1x MIDI TRS Out / Thru (selectable from firmware)
+- 3x Button (one of which is a reset)
+- 4x LEDs (1x Power, 3x PWM Controllable)
+- 2x Trigger In
+- 1x Trigger Out
+- 4x CV In (3 of which have an scale and offset, 4th can also be used as audio in)
+- 1x Audio Out (14-bit Dual PWM, DC-coupled)
 
 In case you bought a PCB (with assembled SMD components) and panel from me, there are a number of things you need to finish the build:
-- 15x Thonkiconn mono jacks
-- 8x 100kOhm potentiometer 
-- 1x 3mm LED (color of choice)
-- 2x 2x3 pinheader (for flashing the firmware)
+- 8x Thonkiconn mono jacks
+- 2x Thonkiconn Stereo jack
+- 3x pushbuttons with at least 15mm shaft
+- 3x 100kOhm potentiometer
+- 3x 10kOhm potentiometer
+- 6x 3mm LED (color of choice)
+- 1x USB-B KUSBVX-BS1N-B from Kycon
+- 1x 2x3 pinheader (for flashing the bootloader)
 - 1x 2x7 pinheader (for eurorack power supply)
-- Eurorack power cable
 
-## Flashing the firmware
-The firmware has to be flashed using the Arduino IDE and an ISP programmer. The firmware for the LFO Chip and VCO chip can be found in the Software folder (check the silkscreen on the PCB to see which chip is which). [Instructions on how to flash](https://highlowtech.org/?p=1695).
+One point of attention: the orientation of the bottom 3 potentiometers is flipped. Be sure to get Reversed D Shaft knobs or shafts where the orientation doesn't matter.
 
-## Getting started with patching
-Right after flashing and powering up, the Kepler already can make sound without any patch cables. This is because some things are already connected together using the switched jack mechanism. There is a little block diagram at the top of the module which shows this. TRI > WS, PULSE > TIMBRE, RUNGLER OUT > PITCH.
-
-![20240106_120326](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/eaca5b53-44c1-4c91-8427-d68ba5e6b84a)
-
-To understand how the internals work, I highly recommend the [Official ARP Manual](https://bastl-instruments.com/content/files/manual-kastle-arp.pdf) and the
-[Kastle ARP Walkthrough](https://www.youtube.com/watch?v=Qxb1zNuFSnc) on Youtube. An external (passive) multiple is highly recommended if you want to try patches for the original ARP. Things can get out of hand quite quickly!
+## Writing software
+### Flashing the firmware
+The bootloader has to be flashed using the Arduino IDE and an ISP programmer. After that, a USB-B cable can be used to flash the microcontroller.
+### Writing software
+The Software folder contains a number of examples that I wrote or ported over. I would recommend to start with the sketches in Hardware Test to verify that everything was built correctly. After that, install the Mozzi library and hop over to the Mozzi examples and try some of those.
+### A word about voltage levels
+The voltage levels of the microcontroller are 0-5V. The Audio Output is DC-Coupled and between 0 and 5V. The CV inputs are -5V to 5V and are mapped to a 0-5V range using attenuation and offset. This is especially important for CV4, in case you are using it for pitch input. The microcontroller essentially sees 1/2Voct and you need to compensate for this in software. Also, a 0V input will give an ADC reading of about 512.
 
 ## Things that are useful to know
 ### Tips for assembly
+![20231115_192708-EDIT](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/a5d1d355-d6c3-440f-9783-a198386a5951)
+
 - Save the LED for last and initially solder just one leg, then you can easily line up the LED with the hole. The hole is a bit bigger than needed because I think that that looks nicer. I also think it looks nicer when the LED is a little 'sunk' and doesn't extend above the frontpanel.
 - If you use the boxed header (like I did), it's slightly bigger than the footprint but it should still fit. Be sure to check the polarity before soldering it to the board.
 
-### Frontpanel naming
-Initialy I planned to use the Kastle Synth firmware, which was also the case when I designed the frontpanel. So I looked at the 'conventional' Kastle Synth for the naming, not the Kastle ARP. But then I discovered the ARP whose sound I like tons more. These are the name mappings:
-PITCH > NOTE,
-WS > DECAY,
-SQR > BASS,
-RESET > CLK IN,
-LFO > TEMPO,
-MODE > CHORD.
 
-### Potentiometer knob size
-Be aware: the potmeters are fitted quite close together so big knobs won't fit. For reference, the knobs used on the photo above are Black Small Unskirted Intellijel/Sifam Plastic Knobs which have a diameter of 11.5mm.
-
-### A word about voltage levels
-The voltage levels of this module are 0-5V, both in- and output. Negative CV Voltages will be clipped away. The Audio outputs are also DC-coupled. This is also the case for the 'MIX OR OUT'. This can be used as a passive mixer to mix in audio with the main oscillator but you should not apply a bipolar audio signal to this input (only modules that have a DC-coupled 0-5V output such as the Kepler (or Toepler, which is one of my other modules). On the upside, the SQR output can be used to modulate the CV inputs (yes, this actually works great!)
