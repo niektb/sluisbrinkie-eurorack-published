@@ -21,8 +21,9 @@ Oscil<SIN2048_NUM_CELLS, AUDIO_RATE> aSin8(SIN2048_DATA);
 int harm_knob = 0;  //AD wave knob
 byte gain = 127;
 
-//OSC frequency knob
-int pitch_offset = 12;
+int pitch_offset = 12;  // Gets overridden by CV1 Input
+// Calculates how to map the Pitch CV to a MIDI Note while compensating for ADC non-linearities
+// Scaler and scaler_offset were determined by trial and error. Combined with the round() and mtof() these values worked decent on my board but might need adjusting for yours
 float max_voltage_of_adc = 5;
 float voltage_division_ratio = 0.5;
 float notes_per_octave = 12;
@@ -36,25 +37,26 @@ float mapFloat(int value, int fromLow, int fromHigh, float toLow, float toHigh) 
 }
 
 void setup() {
-  Serial.begin(9600);
   startMozzi(CONTROL_RATE);
 }
 
 void updateControl() {
-  //harmonics
-  harm_knob = map(mozziAnalogRead(CV3_PIN) + 1, 0, 1023, 0, 255);
-
-  //harmonics_gain
-  gain = map(mozziAnalogRead(CV2_PIN), 0, 1023, 0, 255);
-
+  // Root Note
   pitch_offset = map(mozziAnalogRead(CV1_PIN), 0, 1023, -21, 3);
 
-  float data = mozziAnalogRead(CV4_PIN);                                     // read pitch CV as data value using ADC
+  // Harmonics Gain
+  gain = map(mozziAnalogRead(CV2_PIN), 0, 1023, 0, 255);
+
+  // Harmonics
+  harm_knob = map(mozziAnalogRead(CV3_PIN) + 1, 0, 1023, 0, 255);
+
+  float data = mozziAnalogRead(CV4_PIN);                                           // read pitch CV as data value using ADC
   float pitch = pitch_offset + mapFloat(data, 0, 1023, 0.0, mapping_upper_limit);  // convert pitch CV data value to a MIDI note number
   pitch = round(pitch);
-  int freq = mtof((int)pitch);                                                    // convert MIDI note number to frequency
+  int freq = mtof((int)pitch);  // convert MIDI note number to frequency
 
-  aSin1.setFreq(freq);  // set the frequency
+  // Set the frequency
+  aSin1.setFreq(freq);
   aSin2.setFreq(freq * (pgm_read_byte(&(harm_table[0][harm_knob]))));
   aSin3.setFreq(freq * (pgm_read_byte(&(harm_table[1][harm_knob]))));
   aSin4.setFreq(freq * (pgm_read_byte(&(harm_table[2][harm_knob]))));
@@ -65,6 +67,7 @@ void updateControl() {
 }
 
 int updateAudio() {
+  // Sum all the partials, might be optimized by using bitshifts instead of dividing by 1024
   return MonoOutput::from8Bit(aSin1.next() * (pgm_read_byte(&(gain_table[0][gain]))) / 1024 + aSin2.next() * (pgm_read_byte(&(gain_table[1][gain]))) / 1024 + aSin3.next() * (pgm_read_byte(&(gain_table[2][gain]))) / 1024 + aSin4.next() * (pgm_read_byte(&(gain_table[3][gain]))) / 1024 + aSin5.next() * (pgm_read_byte(&(gain_table[4][gain]))) / 1024 + aSin6.next() * (pgm_read_byte(&(gain_table[5][gain]))) / 1024 + aSin7.next() * (pgm_read_byte(&(gain_table[6][gain]))) / 1024 + aSin8.next() * (pgm_read_byte(&(gain_table[7][gain]))) / 1024);
 }
 
