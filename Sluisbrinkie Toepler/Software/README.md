@@ -20,3 +20,7 @@ This is somekind of Granular Formant Oscillator. Perfect for 'Ooooh' and 'Aaaaah
 This is a lofi emulation of the Casio RZ1 drum machine. See this link for a short demonstration: https://youtube.com/shorts/vMh-8B2sCWI?si=By4kS0sKtcdMR4sM
 ### roundhouse
 Roundhouse is a lofi 909 emulation.
+### Krachmacher
+Noise machine based on feeding white or pink noise into 2 Karplus strong delaylines and optionally a VCA and VCF. Very suitable for making drones and percussion.
+### Scheveningen
+West-Coast Oscillator. 2 sinewave oscillators that are ring-modulated and wavefolded.
