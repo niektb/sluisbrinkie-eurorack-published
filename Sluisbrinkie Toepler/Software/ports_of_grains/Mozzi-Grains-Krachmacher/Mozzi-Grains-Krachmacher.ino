@@ -3,6 +3,8 @@
 2024 - 02 - 20: Port for Sluisbrinkie Toepler. Routing Mode is selected using the buttons (LEDs represent currently selected mode using binary coding). 
 Audio In goes to CV4. Gate Out (which is used as Gate In in this sketch) is connected to TR1. TR2, TROUT1 and MIDI are unused in this sketch.
 Port is released under the same license as the original software.
+
+Ideas to implement: Let TR2 control routing_mode, Make TROUT1 = TR1 | TR2.
 ###
 
 # 'Mozzi-GRAINS Krachmacher' 
