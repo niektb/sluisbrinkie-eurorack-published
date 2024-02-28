@@ -14,7 +14,7 @@ This firmware toggles the Trigger Out at a 1 second interval. It also blinks LED
 This firmware is a port from Hagiwo's Additive Synth. See this youtube link for a demonstration: https://youtu.be/W8T1MqH5lBw?si=IQTcm9-iFZWvhHCK&t=71
 
 ## Bytebeat
-This name is pretty self-explanatory :D
+This name is pretty self-explanatory :D https://youtu.be/DYrmwZQgL38?si=BTS49s4QjtoI6nDy
 
 ## Ports of Grains
 This folder contains a number of programs ported over from the Ginkosynthese Grains.
