@@ -1,7 +1,6 @@
 /*
 Attempt to implement bytebeats
-TODO: implement buttons to switch between bytebeats
-TODO: The knobs and inputs should do something :D
+TODO: The Trigger inputs and CV4 should do something :D
 */
 
 //libraries used
