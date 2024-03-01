@@ -1,6 +1,9 @@
 /*
+This work is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+
 Attempt to implement bytebeats (the works from Viznut)
-Concept of morphable bytebeats and equations borrowed from https://github.com/spherical-sound-society/glitch-storm 
+Concept of morphable bytebeats and equations borrowed from Glitch Storm by Spherical Sound Society (https://github.com/spherical-sound-society/glitch-storm)
+
 TODO: The Trigger inputs and CV4 should do something :D
 */
 
