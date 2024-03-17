@@ -1,3 +1,5 @@
+/* This work is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ */
+
 //To convert the port names of the ATMEGA32U4 to Arduino Micro pin numbers
 #define PC7 13
 #define PD6 12
