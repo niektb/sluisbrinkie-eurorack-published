@@ -339,6 +339,7 @@ void bank3() {
       output = (t * (t >> 5 | t >> p1)) >> (t >> p2);  // has some 'dead spots' on the knobs
       break;
     case 2:
+      output = t >> 5 | (t >> 2) * (t >> 5);
       break;
     case 3:
       break;
@@ -371,7 +372,8 @@ void bank4() {
       output = t >> 4 + t % p2 | t >> 5 + t % (t / 31108 & 1 ? 46 : 43) | t / 4 | t / 8 % p2;
       break;
     case 4:
-
+      // xpansive 2011-09-29 https://www.pouet.net/topic.php?which=8357&page=3#c388375
+      output = t * (t >> 8 | t >> 9) & 46 & t >> 8 ^ (t & t >> 13 | t >> 6);
       break;
     case 5:
       //OMG TEH BYTEBEATNESS number two (pwm) (cover of Keaton Monger - This is Sparta! Last techno remix) (2023-07-22) 15360Hz https://www.reddit.com/r/bytebeat/comments/1567oiq/omg_teh_bytebeatness/
@@ -387,6 +389,10 @@ void bank4() {
       output = ((t >> t % (t % 2 ? p0 : p1) | t >> t % (t & 16384 ? (p2 + 4) : p2)) & 65535) / (t % 4096);
       break;
     case 7:
+      int T = t / 5000;
+      float melody[] = { 0, 1, 5, 8, 10 };
+      output = t * pow(2, 2.0 + melody[T % 5] / 12.0);  // .0 to make sure it's a float division
+      output = output & 127;
       break;
     default:
       output = 0;
@@ -413,9 +419,7 @@ void bank5() {
       output = t & (p0 << 5) ? t >> 4 : t >> p2;
       break;
     case 4:
-      //int arp[8] = { 2, 4, 5, 7, 4, 4, 0, 2 };
-      //long T = t / 1e4;
-      //output = (t * 2 << (1 + arp[T & 7] /  12)) & 128;
+
       break;
     case 5:
       break;
