@@ -1,6 +1,9 @@
 # Sluisbrinkie Gauss
 The Gauss (named after a German scientist) is a digital module for 3U Eurorack systems. The core of the module consists of a Atmega32u4 and a MCP4822. The size of this module is 14 HP. It is aimed to be a LFO / (Cycling) Envelope Generator / Oscillator inspired by the well-known VCS modules such as Maths. But the software is easily hackable and can be customized to the user's liking.
 
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/000707f4-be9d-4c8f-b388-08e5b87a3464" width="40%">
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/16e08ec8-96af-435b-be8f-8634c0214ab7" width="40%">
+
 Overview of connections:
 - 1x USB Type B (for USB MIDI and flashing firmware)
 - 2x Loop Switch
