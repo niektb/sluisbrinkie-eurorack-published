@@ -1,6 +1,9 @@
 /*
 This work is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
 Attempt to implement bytebeats (originally discovered and described by Viznut)
+
+Some equations are borrowed from Poetaster's Rampart, these are licensed under GPLv3. 
+Other equations are taken from the internet, see adjacent comment for origins
 */
 
 //libraries used
@@ -38,6 +41,10 @@ AnalogIn speed(CV2_PIN, -1.51, 1.51);
 
 uint32_t eeprom_timeout = 0;
 bool wait_for_timeout = false;
+
+volatile int a, b, c;
+// these ranges are provisional and in schollz equations need to be reset
+volatile int aMax = 99, aMin = 0, bMax = 99, bMin = 0, cMax = 99, cMin = 0;
 
 void audioOn() {
   // Set up PWM to 31.25kHz, phase accurate
@@ -112,7 +119,7 @@ void loop() {
         wait_for_timeout = true;
         eeprom_timeout = millis();
       }
-      t = 0;
+      _t = 0;
       digitalWrite(LED1, 0);
       digitalWrite(LED2, 0);
       digitalWrite(LED3, 0);
@@ -134,7 +141,7 @@ void loop() {
         eeprom_timeout = millis();
         Serial.println(func);
       }
-      t = 0;
+      _t = 0;
       break;
     default:
       break;
@@ -150,7 +157,7 @@ void loop() {
         wait_for_timeout = true;
         eeprom_timeout = millis();
       }
-      t = 0;
+      _t = 0;
 
       digitalWrite(LED1, 0);
       digitalWrite(LED2, 0);
@@ -172,7 +179,7 @@ void loop() {
         eeprom_timeout = millis();
         Serial.println(func);
       }
-      t = 0;
+      _t = 0;
 
       break;
     default:
@@ -433,13 +440,47 @@ void bank5() {
   }
 }
 
+// Unsorted
 void bank6() {
   switch (func) {
     case 1:
+      a = constrain(p0, aMin, aMax);
+      b = constrain(p2, bMin, bMax);
+      c = constrain(p1, cMin, cMax);
+
+      // poetaster helicopters has some arps with b in the middle, various!
+      output = ((t >> a) - (t >> a & t) + (t >> t & a)) + (t * ((t >> b) & c));
       break;
     case 2:
+      cMax = 12;
+      cMin = 1;
+      aMax = 16;
+      aMin = 1;
+      bMax = 16;
+      bMin = 1;
+      a = constrain(p0, aMin, aMax);
+      b = constrain(p1, bMin, bMax);
+      c = constrain(p2, cMin, cMax);
+      if (_t > 65536)
+        _t = -65536;
+
+      // poetaster breaky, jungle stuff a at one oclock, c middle, etc
+      output = a + ((t >> a + 1)) * (t >> c | b | t >> (t >> 16));
       break;
     case 3:
+      aMax = 15;
+      aMin = 0;
+      bMax = 15;
+      bMin = 0;
+      cMax = 5;
+      cMin = 0;
+
+      a = constrain(p0, aMin, aMax);
+      b = constrain(p1, bMin, bMax);
+      c = constrain(p2, cMin, cMax);
+
+      //  poetaster click mouth harp and hum and other chaos, clicky too :)
+      output = ((t >> 6 ? 2 : 3) & t * (t >> a) | (a + b + c) - (t >> b)) % (t >> a) + (a << t | (t >> c));
       break;
     case 4:
       break;
