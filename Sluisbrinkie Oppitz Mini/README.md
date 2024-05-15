@@ -1,5 +1,8 @@
 # Sluisbrinkie Oppitz Mini
+
 The Oppitz Mini (named after a German Scientist) is the smaller brother of the (unreleased) Oppitz module. It is a 4HP, 3-channel Mixer and Output Module. It takes 3 mono audio signals and drives a line out and headphone out. The schematic can be found in this directory.
+
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/0ae7f959-a116-4753-a9f2-b7bbb504c784" width="40%"> <img src ="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/15d838c1-db8d-4cec-909f-65ee5ba47583" width="40%">
 
 I use this module in my mini workbench case (which is only 34HP wide) because it is extremely tiny and it is great to test new modules with!
 
