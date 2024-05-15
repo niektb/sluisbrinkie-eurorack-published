@@ -1,11 +1,16 @@
 # Sluisbrinkie Toepler
 The Toepler (named after a German scientist) is a digital module for 3U Eurorack systems, positioned as a software development platform. The core of the module consists of a Atmega32u4 and is compatible with Arduino and the well-known Mozzi Library. The size is 14 HP. Initially I made this module for myself. I wanted a development platform with which I could experiment with various Arduino libraries and use them in a broad context and also interface. e broad range of connectivity allows it to be used as a swiss army knife in a wide range of situations. MIDI and Mozzi also allow the module to be truly polyphonic. The most obvious use case is a digital VCO but audio effects such as a Wavefolder, Clipper, Chorus or Pitch Shifter are also possible.
 
-![20231115_192806](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/faaf6aef-b2a3-4863-9b0b-0fc373ffbd65)
+Update 15-05-2024: I've released a new version of the frontpanel, which looks a bit cleaner:
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/446681d9-314f-4125-a0a8-a18752e439b0" width="40%">
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/1a733678-d17d-40c8-a9f5-604cf0b18c10" width="40%">
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/ad28b986-fc7d-4dde-9af2-d70d5e7db9da" width="40%">
+
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/faaf6aef-b2a3-4863-9b0b-0fc373ffbd65" width="40%">
 
 Overview of connections:
 
-![20240127_094107](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/52aae7f0-b71f-4000-a554-3affe9406e22)
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/52aae7f0-b71f-4000-a554-3affe9406e22" width="50%">
 
 - 1x USB Type B (for USB MIDI and flashing firmware)
 - 1x MIDI TRS In
