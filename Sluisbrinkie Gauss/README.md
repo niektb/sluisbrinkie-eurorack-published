@@ -22,6 +22,7 @@ In case you bought a PCB (with assembled SMD components) and panel from me, ther
 - 1x USB-B KUSBVX-BS1N-B from Kycon
 - 1x 2x3 pinheader (for flashing the bootloader)
 - 1x 2x7 pinheader (for eurorack power supply)
+- 1x MCP4822 (8-pin DIP)
 
 ## Writing software
 ### Flashing the firmware
