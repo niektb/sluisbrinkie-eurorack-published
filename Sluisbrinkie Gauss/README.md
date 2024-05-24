@@ -26,7 +26,7 @@ In case you bought a PCB (with assembled SMD components) and panel from me, ther
 
 ## Writing software
 ### Flashing the firmware
-The bootloader has to be flashed using the Arduino IDE and an ISP programmer. After that, a USB-B cable can be used to flash the microcontroller. The Toepler will show up as 'Arduino Micro' (as they are based around the same microcontroller).
+The bootloader has to be flashed using the Arduino IDE and an ISP programmer. After that, a USB-B cable can be used to flash the microcontroller. The Gauss will show up as 'Arduino Micro' (as they are based around the same microcontroller).
 
 ### Writing software
 The Software folder contains the example software that I wrote. I would recommend to start with this sketch and expand on this.
