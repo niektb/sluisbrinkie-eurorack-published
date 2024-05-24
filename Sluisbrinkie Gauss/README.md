@@ -3,6 +3,8 @@ The Gauss (named after a German scientist) is a digital module for 3U Eurorack s
 
 <img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/000707f4-be9d-4c8f-b388-08e5b87a3464" width="40%">
 <img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/16e08ec8-96af-435b-be8f-8634c0214ab7" width="40%">
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/2b574656-3cc2-4eda-963c-dbf4499da36f" width="40%">
+<img src="https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/9082071b-fd60-4b42-8cb9-00a507252665" width="40%">
 
 Overview of connections:
 - 1x USB Type B (for USB MIDI and flashing firmware)
