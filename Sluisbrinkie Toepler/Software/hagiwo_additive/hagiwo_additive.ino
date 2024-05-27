@@ -20,16 +20,16 @@ Oscil<SIN2048_NUM_CELLS, AUDIO_RATE> aSin8(SIN2048_DATA);
 
 int harm_knob = 0;  //AD wave knob
 byte gain = 127;
+float last_pitch = 0;
 
-int pitch_offset = 12;  // Gets overridden by CV1 Input
-// Calculates how to map the Pitch CV to a MIDI Note while compensating for ADC non-linearities
-// Scaler and scaler_offset were determined by trial and error. Combined with the round() and mtof() these values worked decent on my board but might need adjusting for yours
+//OSC frequency knob
+int pitch_offset = 12;
 float max_voltage_of_adc = 5;
 float voltage_division_ratio = 0.5;
 float notes_per_octave = 12;
 float volts_per_octave = 1;
-float scaler = 0.931;
-float scaler_offset = 0;
+float scaler = 0.947;
+float scaler_offset = 0.016;
 float mapping_upper_limit = (max_voltage_of_adc / voltage_division_ratio) * notes_per_octave * volts_per_octave * scaler + scaler_offset;
 
 float mapFloat(int value, int fromLow, int fromHigh, float toLow, float toHigh) {
@@ -47,16 +47,14 @@ void updateControl() {
   // Harmonics Gain
   gain = map(mozziAnalogRead(CV2_PIN), 0, 1023, 0, 255);
 
-  // Harmonics
-  harm_knob = map(mozziAnalogRead(CV3_PIN) + 1, 0, 1023, 0, 255);
+  pitch_offset = map(mozziAnalogRead(CV1_PIN), 0, 1023, -21, 3);
+  float data = mozziAnalogRead(CV4_PIN);  // read pitch CV as data value using ADC
 
-  float data = mozziAnalogRead(CV4_PIN);                                           // read pitch CV as data value using ADC
   float pitch = pitch_offset + mapFloat(data, 0, 1023, 0.0, mapping_upper_limit);  // convert pitch CV data value to a MIDI note number
-  pitch = round(pitch);
+  pitch = round(pitch); // because next line floors it
   int freq = mtof((int)pitch);  // convert MIDI note number to frequency
 
-  // Set the frequency
-  aSin1.setFreq(freq);
+  aSin1.setFreq(freq);  // set the frequency
   aSin2.setFreq(freq * (pgm_read_byte(&(harm_table[0][harm_knob]))));
   aSin3.setFreq(freq * (pgm_read_byte(&(harm_table[1][harm_knob]))));
   aSin4.setFreq(freq * (pgm_read_byte(&(harm_table[2][harm_knob]))));
