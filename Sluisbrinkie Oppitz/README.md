@@ -13,7 +13,7 @@ In case you bought a PCB (with assembled SMD components) and panel from me, ther
 
 - 8x Thonkiconn mono jacks
 - 1x Thonkiconn stereo jack
-- 3x 50kOhm Type A potentiometer (Bourns PVT09 series are used in my personal builds)
+- 3x 50kOhm Type A potentiometer (Bourns PTV112-4420A-A503 are used in my personal builds)
 - 3x potentiometer knobs
 - 1x 2x5 pinheader (for eurorack power supply)
 - 1x 10-pins ribbon cable (for eurorack power supply)
