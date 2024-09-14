@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "bluepill_breakouts")(type "Legacy")(uri "${KIPRJMOD}/bluepill_breakouts.lib")(options "")(descr ""))
   (lib (name "Peaks-rescue")(type "KiCad")(uri "${KIPRJMOD}/Peaks-rescue.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.kicad_sym")(options "")(descr ""))
 )
