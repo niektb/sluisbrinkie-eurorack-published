@@ -4782,7 +4782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 34.29 149.86 0)
 			(effects
 				(font
@@ -4853,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 96.52 22.86 0)
 			(effects
 				(font
@@ -5056,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 26.67 22.86 0)
 			(effects
 				(font
@@ -5195,7 +5195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 278.13 46.99 0)
 			(effects
 				(font
@@ -5466,7 +5466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical_DSHAFT"
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -5536,7 +5536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 191.77 149.86 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 34.29 50.8 0)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 34.29 100.33 0)
 			(effects
 				(font
@@ -6024,7 +6024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical_DSHAFT"
 			(at 45.72 133.35 0)
 			(effects
 				(font
@@ -6094,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -6233,7 +6233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical_DSHAFT"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -6373,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 26.67 121.92 0)
 			(effects
 				(font
@@ -6446,7 +6446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -6653,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical_DSHAFT"
 			(at 115.57 34.29 0)
 			(effects
 				(font
@@ -7129,7 +7129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
 			(at 26.67 72.39 0)
 			(effects
 				(font
