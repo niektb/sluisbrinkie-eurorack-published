@@ -4993,22 +4993,22 @@
 			(uuid "f90fc4cb-b042-4479-b954-39947a1a12ab")
 		)
 		(pin "2"
-			(uuid "4c04da67-d356-4a3c-b09a-1fab55e5dd3f")
+			(uuid "4c04da67-d356-4a3c-b09a-1fab55e5dd40")
 		)
 		(pin "6"
 			(uuid "1e1872b8-fcfe-4250-804b-b5e588507c3c")
 		)
 		(pin "8"
-			(uuid "4a9e6971-6f3b-4410-bf08-a347c5411fd9")
+			(uuid "4a9e6971-6f3b-4410-bf08-a347c5411fda")
 		)
 		(pin "3"
-			(uuid "84cf5961-1cf0-4d3c-ad52-4637b453a4fc")
+			(uuid "84cf5961-1cf0-4d3c-ad52-4637b453a4fd")
 		)
 		(pin "1"
-			(uuid "00c0e8f4-e4db-44d7-804e-a6d61d8672f7")
+			(uuid "00c0e8f4-e4db-44d7-804e-a6d61d8672f8")
 		)
 		(pin "4"
-			(uuid "a8abfa30-a74b-4130-bf56-4cccd0c0f893")
+			(uuid "a8abfa30-a74b-4130-bf56-4cccd0c0f894")
 		)
 		(instances
 			(project "beaks_pro"

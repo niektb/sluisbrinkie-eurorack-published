@@ -5564,7 +5564,6 @@
 	(symbol
 		(lib_id "PCM_4ms_Connector:Pins_02x10_P1.27mm_TH")
 		(at 193.04 77.47 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5588,7 +5587,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
-			(at 191.135 100.33 0)
+			(at 194.945 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6310,6 @@
 	(symbol
 		(lib_id "PCM_4ms_Connector:Pins_02x10_P1.27mm_TH")
 		(at 193.04 40.64 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6335,7 +6333,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
-			(at 191.135 63.5 0)
+			(at 194.945 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 38.1 0)
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
