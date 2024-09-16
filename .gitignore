@@ -1,0 +1,9 @@
+
+*.lck
+*.gbr
+.DS_Store
+*_autosave*
+fp-info-cache
+*-backup*
+*-Backup*
+/*/*-backups

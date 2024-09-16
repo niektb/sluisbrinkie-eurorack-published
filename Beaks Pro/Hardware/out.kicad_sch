@@ -1221,12 +1221,6 @@
 		(uuid "26e67f12-6881-4e91-8813-67eb33ee8e53")
 	)
 	(junction
-		(at 152.4 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c573203-4cc4-4c3b-8a24-1af26e14e362")
-	)
-	(junction
 		(at 144.78 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1279,12 +1273,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "553a88b9-cf49-4fdf-8d3f-c119764499ce")
-	)
-	(junction
-		(at 153.67 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "622aafa6-08c8-4a6d-9fe1-15247b5e26b0")
 	)
 	(junction
 		(at 111.76 151.13)
@@ -1484,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 156.21) (xy 152.4 156.21)
+			(xy 146.05 153.67) (xy 152.4 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1544,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 156.21) (xy 152.4 158.75)
+			(xy 152.4 153.67) (xy 152.4 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 153.67 88.9)
+			(xy 147.32 86.36) (xy 153.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1691,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "4a42445a-bff6-4fd0-8717-2b2526efb77f")
-	)
-	(wire
-		(pts
-			(xy 153.67 83.82) (xy 153.67 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b6101ce-2b49-46a8-98f3-20afbfc270e3")
 	)
 	(wire
 		(pts
@@ -1811,6 +1789,16 @@
 			(type default)
 		)
 		(uuid "66d342f4-8a0a-4afa-81e6-cee8a15d2460")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677687b8-c2e3-4336-9c90-ac44214fe7a9")
 	)
 	(wire
 		(pts
@@ -2034,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 151.13) (xy 152.4 153.67)
+			(xy 152.4 130.81) (xy 152.4 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2051,26 +2039,6 @@
 			(type default)
 		)
 		(uuid "a4f320be-3256-46cb-9ff9-de0feb4d6e85")
-	)
-	(wire
-		(pts
-			(xy 152.4 166.37) (xy 152.4 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f5f132-fdfa-4148-ace4-b3f0d5afa7a2")
-	)
-	(wire
-		(pts
-			(xy 153.67 88.9) (xy 153.67 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a952c8cb-38ed-4277-b2be-d6080b3c0288")
 	)
 	(wire
 		(pts
@@ -2204,16 +2172,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 143.51) (xy 152.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf79cc2f-2aa5-4669-a522-fcc45e9886db")
-	)
-	(wire
-		(pts
 			(xy 114.3 48.26) (xy 114.3 54.61)
 		)
 		(stroke
@@ -2294,23 +2252,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 99.06) (xy 153.67 101.6)
+			(xy 153.67 86.36) (xy 153.67 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d7c04dce-9ab1-4cd4-8a1d-bf66d00c5dd5")
-	)
-	(wire
-		(pts
-			(xy 152.4 153.67) (xy 152.4 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8db59d0-a42e-4783-8066-02a751d4892e")
 	)
 	(wire
 		(pts
@@ -2341,16 +2289,6 @@
 			(type default)
 		)
 		(uuid "dd2fc439-72ab-4aca-936b-c9b876cea9eb")
-	)
-	(wire
-		(pts
-			(xy 153.67 86.36) (xy 153.67 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd932ee-c625-4ba4-8eeb-bf87d4c3084e")
 	)
 	(wire
 		(pts
@@ -2391,16 +2329,6 @@
 			(type default)
 		)
 		(uuid "e5c5de6b-ca10-4f3e-bc63-20f01a9bb17d")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.2) (xy 153.67 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e674f8cd-23ad-4dfb-b90d-9c1500d2d19f")
 	)
 	(wire
 		(pts
@@ -2673,7 +2601,7 @@
 	)
 	(hierarchical_label "OUT2_ATVPOT"
 		(shape input)
-		(at 146.05 156.21 180)
+		(at 146.05 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2721,7 +2649,7 @@
 	)
 	(hierarchical_label "OUT1_ATVPOT"
 		(shape input)
-		(at 147.32 88.9 180)
+		(at 147.32 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2884,76 +2812,6 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0840971b-f74f-4de9-a24e-fe27d2428540")
-		(property "Reference" "R63"
-			(at 156.21 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 156.21 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 151.892 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43069440-32bc-4d42-807a-b0f48ff663d8")
-		)
-		(pin "1"
-			(uuid "866c561b-ce96-42d5-8f9f-38fdbcd40ed7")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
-					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -3428,7 +3286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 181.61 151.13 0)
 			(effects
 				(font
@@ -4532,76 +4390,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "919d6bc9-db57-4bb4-8b8b-4e262922a170")
-		(property "Reference" "R58"
-			(at 154.94 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 154.94 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 150.622 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9c8eed6-d473-4066-a1da-ccd8c346b49a")
-		)
-		(pin "1"
-			(uuid "8108c331-1973-4262-a41a-e39cb0a7b773")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 80.01 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4727,76 +4515,6 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "970b74ff-7219-4fc9-8048-6a55d40ce972")
-		(property "Reference" "R59"
-			(at 154.94 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 154.94 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 150.622 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5865b6e0-0fee-4c09-ae06-274b3ed8f57f")
-		)
-		(pin "1"
-			(uuid "164ae300-db69-44d9-98ac-89d4ad218952")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
-					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -4959,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 182.88 83.82 0)
 			(effects
 				(font
@@ -5119,76 +4837,6 @@
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
 					(reference "U5")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3282e94-b505-4ede-a690-d00b7d744826")
-		(property "Reference" "R62"
-			(at 156.21 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 156.21 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 151.892 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31d0a419-7adc-4767-8d9d-0a301d8ee4c4")
-		)
-		(pin "1"
-			(uuid "ca4dc25f-08cd-44a5-a9ad-a03083210085")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
-					(reference "R62")
-					(unit 1)
 				)
 			)
 		)

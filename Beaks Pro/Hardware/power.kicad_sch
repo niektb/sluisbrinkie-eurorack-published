@@ -3360,7 +3360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92L_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 168.91 65.405 0)
 			(effects
 				(font
