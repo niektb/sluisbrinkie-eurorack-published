@@ -796,7 +796,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "beaks_pro.step",
       "svg": "",
       "vrml": ""
     },
@@ -922,10 +922,6 @@
     [
       "fb22c943-9cff-45ae-b520-01696d5bd22d",
       "Power"
-    ],
-    [
-      "861bb9dc-57d3-4ab9-8214-8b93647e02f0",
-      "Front PCB"
     ]
   ],
   "text_variables": {}

@@ -3734,44 +3734,6 @@
 		)
 	)
 	(sheet
-		(at 210.82 132.08)
-		(size 68.58 27.94)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "861bb9dc-57d3-4ab9-8214-8b93647e02f0")
-		(property "Sheetname" "Front PCB"
-			(at 210.82 131.3684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "front.kicad_sch"
-			(at 210.82 160.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 210.82 48.26)
 		(size 27.94 24.13)
 		(fields_autoplaced yes)
