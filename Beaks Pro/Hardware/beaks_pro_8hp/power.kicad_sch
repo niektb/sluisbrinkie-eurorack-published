@@ -518,151 +518,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -784,7 +639,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5817"
+		(symbol "PCM_4ms_Diode:B140HW-7"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -799,7 +654,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5817"
+			(property "Value" "B140HW-7"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -807,8 +662,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
+			(property "Footprint" "4ms_Diode:D_SOD-123"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -816,7 +671,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -825,7 +680,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(property "Description" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -834,7 +689,46 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "Specifications" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "B140HW-7"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB ID" "C134429"
+				(at 2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Alt JLCPCB ID" "C8598"
 				(at 0 0 0)
 				(effects
 					(font
@@ -843,7 +737,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "Alt JLCPCB Part" "B5819W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -852,7 +746,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5817_0_1"
+			(property "ki_keywords" "B140HW-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD*123 D_SOD-123 SOD*123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B140HW-7_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -870,7 +782,7 @@
 						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -882,7 +794,7 @@
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -890,7 +802,7 @@
 					)
 				)
 			)
-			(symbol "1N5817_1_1"
+			(symbol "B140HW-7_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -929,42 +841,30 @@
 				)
 			)
 		)
-		(symbol "PCM_Capacitor_AKL:CP_Radial_D8.0mm_P3.50mm"
+		(symbol "PCM_Diode_Zener_AKL:MM3Z3V6ST"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "DZ"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CP_Radial_D8.0mm_P3.50mm"
-				(at 0.635 -2.54 0)
+			(property "Value" "MM3Z3V6ST"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D8.0mm_P3.50mm"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -973,7 +873,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "THT Electrolytic Capacitor, 8.0mm Diameter, 3.50mm Pitch, European Symbol, Alternate KiCad Library"
+			(property "Datasheet" "https://www.tme.eu/Document/59602a643d19bb5d35c4e4c7d37742b4/MM3ZxxxST1G_SZMM3ZxxxST1G.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -982,7 +882,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor polarized eu tht radial electrolytic 8mm 3.50mm"
+			(property "Description" "SOD-323 Zener diode, 3.6V, 300mW, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -991,7 +891,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_keywords" "diode zener MM3ZST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1000,21 +900,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "CP_Radial_D8.0mm_P3.50mm_0_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "MM3Z3V6ST_0_1"
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1026,21 +924,34 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
+						(xy 1.27 1.27) (xy 0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1048,10 +959,10 @@
 					)
 				)
 			)
-			(symbol "CP_Radial_D8.0mm_P3.50mm_0_2"
+			(symbol "MM3Z3V6ST_0_2"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -0.6604 -0.6604)
+						(xy -2.54 -2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1063,10 +974,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.032) (xy 1.016 2.032)
+						(xy 0 1.778) (xy -0.381 1.397)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1075,10 +986,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 2.54) (xy 0.508 1.524)
+						(xy 0 1.778) (xy 1.778 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1087,46 +998,22 @@
 				)
 				(polyline
 					(pts
-						(xy 0.6604 0.6604) (xy 2.54 2.54)
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.8796 0.6096) (xy 0.6096 -1.8796) (xy 0.9652 -1.524) (xy -1.524 0.9652) (xy -1.8796 0.6096)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.9652 1.524) (xy 1.524 -0.9652) (xy 1.8796 -0.6096) (xy -0.6096 1.8796) (xy -0.9652 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "CP_Radial_D8.0mm_P3.50mm_1_1"
+			(symbol "MM3Z3V6ST_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1142,9 +1029,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,11 +1047,11 @@
 					)
 				)
 			)
-			(symbol "CP_Radial_D8.0mm_P3.50mm_1_2"
+			(symbol "MM3Z3V6ST_1_2"
 				(pin passive line
-					(at 2.54 2.54 270)
+					(at 2.54 2.54 180)
 					(length 0)
-					(name "~"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1180,9 +1067,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -2.54 90)
+					(at -2.54 -2.54 0)
 					(length 0)
-					(name "~"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1199,7 +1086,7 @@
 				)
 			)
 		)
-		(symbol "Reference_Voltage:LM4040LP-10"
+		(symbol "Reference_Voltage:LM4040DBZ-10"
 			(pin_names
 				(offset 0.0254) hide)
 			(exclude_from_sim no)
@@ -1213,7 +1100,7 @@
 					)
 				)
 			)
-			(property "Value" "LM4040LP-10"
+			(property "Value" "LM4040DBZ-10"
 				(at 0 -3.175 0)
 				(effects
 					(font
@@ -1221,7 +1108,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1241,7 +1128,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10.00V Precision Micropower Shunt Voltage Reference, TO-92"
+			(property "Description" "10.00V Precision Micropower Shunt Voltage Reference, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1259,7 +1146,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*Inline*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1268,7 +1155,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM4040LP-10_0_1"
+			(symbol "LM4040DBZ-10_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -1306,25 +1193,7 @@
 					)
 				)
 			)
-			(symbol "LM4040LP-10_1_1"
-				(pin no_connect line
-					(at -1.27 0 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "LM4040DBZ-10_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -1335,7 +1204,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1353,6 +1222,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 0 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -1363,10 +1250,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:L78L05_TO92"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:AMS1117-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1378,7 +1262,7 @@
 					)
 				)
 			)
-			(property "Value" "L78L05_TO92"
+			(property "Value" "AMS1117-5.0"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1387,18 +1271,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-				(at 0 -1.27 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1406,7 +1280,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1415,7 +1298,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1424,7 +1307,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1433,7 +1316,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L78L05_TO92_0_1"
+			(symbol "AMS1117-5.0_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1446,11 +1329,11 @@
 					)
 				)
 			)
-			(symbol "L78L05_TO92_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
+			(symbol "AMS1117-5.0_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VO"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1465,10 +1348,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "GND"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1937,6 +1820,12 @@
 		)
 	)
 	(junction
+		(at 133.35 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07672748-f026-4826-b914-64bb009bfe64")
+	)
+	(junction
 		(at 177.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2027,19 +1916,13 @@
 		(uuid "8f96baa0-dc89-4228-b142-dbf382cc7731")
 	)
 	(junction
-		(at 132.08 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c2db696-eb48-4b77-a331-8758dc244e9c")
-	)
-	(junction
 		(at 165.1 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3365b2b-2b63-4af0-a029-6541fc038f24")
 	)
 	(junction
-		(at 157.48 71.12)
+		(at 156.21 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5e3224c-693b-4d23-83dc-69b24511dc52")
@@ -2098,17 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 135.89 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eca96ce-0453-4ae4-8285-b69973f15941")
-	)
-	(wire
-		(pts
-			(xy 132.08 124.46) (xy 132.08 127)
+			(xy 133.35 124.46) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 168.91 81.28)
+			(xy 156.21 81.28) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2308,6 +2181,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 114.3) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b5a48f-0d59-44e3-b238-94c7320bc8f9")
+	)
+	(wire
+		(pts
 			(xy 121.92 127) (xy 100.33 127)
 		)
 		(stroke
@@ -2438,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 114.3) (xy 132.08 114.3)
+			(xy 121.92 114.3) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2508,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 132.08 116.84)
+			(xy 133.35 114.3) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 157.48 71.12)
+			(xy 153.67 71.12) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 71.12) (xy 160.02 71.12)
+			(xy 156.21 71.12) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2598,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 71.12)
+			(xy 156.21 73.66) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 154.94 71.12)
+			(xy 153.67 69.85) (xy 153.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2571,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 121.92 127)
+			(xy 133.35 127) (xy 121.92 127)
 		)
 		(stroke
 			(width 0)
@@ -2729,75 +2612,6 @@
 			(justify left)
 		)
 		(uuid "fb055398-87f7-4287-b96e-95b520cd7d6f")
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:CP_Radial_D8.0mm_P3.50mm")
-		(at 121.92 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0192bd07-2ec2-4879-b558-5af4d365ffd0")
-		(property "Reference" "C17"
-			(at 124.9172 119.4816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 124.9172 121.793 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 122.8852 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "198ed09c-a5e0-4058-8b78-47eb0845bc92")
-		)
-		(pin "2"
-			(uuid "60830d6e-fce1-45fc-a943-4cf7e2db1239")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:-12V")
@@ -2865,7 +2679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "PCM_4ms_Diode:B140HW-7")
 		(at 168.91 58.42 0)
 		(mirror x)
 		(unit 1)
@@ -2875,23 +2689,23 @@
 		(dnp no)
 		(uuid "1424cf77-856d-49a0-980b-6c5509438f52")
 		(property "Reference" "D11"
-			(at 168.91 52.9082 0)
+			(at 168.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N5817"
-			(at 168.91 55.2196 0)
+		(property "Value" "B140HW-7"
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 168.91 53.975 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 168.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -2908,7 +2722,64 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+			(at 166.37 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 166.37 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B140HW-7"
+			(at 166.37 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C134429"
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB ID" "C8598"
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB Part" "B5819W"
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -2927,6 +2798,77 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-5.0")
+		(at 168.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15446046-6037-417f-91be-65331d7e84a9")
+		(property "Reference" "U7"
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5.0"
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ce69177-0f76-41f9-98e7-af2d9b926983")
+		)
+		(pin "1"
+			(uuid "77a22cd0-0688-41e7-8028-61d808f27cb4")
+		)
+		(pin "3"
+			(uuid "622ce401-8872-4f87-acee-ad3e68384d75")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3022,7 +2964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 157.988 113.03 90)
 			(effects
 				(font
@@ -3065,7 +3007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "PCM_4ms_Diode:B140HW-7")
 		(at 107.95 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3074,23 +3016,23 @@
 		(dnp no)
 		(uuid "28f672b9-4b81-432f-9682-c3580572ab23")
 		(property "Reference" "D9"
-			(at 107.95 73.2282 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N5817"
-			(at 107.95 75.5396 0)
+		(property "Value" "B140HW-7"
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 107.95 83.185 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -3107,7 +3049,64 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+			(at 105.41 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 105.41 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B140HW-7"
+			(at 105.41 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C134429"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB ID" "C8598"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB Part" "B5819W"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -3126,6 +3125,220 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:LM4040DBZ-10")
+		(at 100.33 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29618a70-0e52-49cc-a443-7d70ca9ef066")
+		(property "Reference" "U6"
+			(at 102.616 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM4040DBZ-10"
+			(at 102.616 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10.00V Precision Micropower Shunt Voltage Reference, SOT-23"
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78ffe6dc-8c11-45d8-a94c-2e5f42cfc63b")
+		)
+		(pin "3"
+			(uuid "4014a2d2-a52e-42bc-a448-4cb1694a3290")
+		)
+		(pin "2"
+			(uuid "fc8fdcd1-b375-421e-a4e7-30e7db377761")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cab9298-73be-4f38-ac74-632d2d094c7e")
+		(property "Reference" "C19"
+			(at 129.54 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 129.54 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 126.6952 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0a9c8eb-0b3b-4868-85bd-5a0754e3b790")
+		)
+		(pin "1"
+			(uuid "9a5e1be1-07ac-4929-bab2-6f8b55fa3cb3")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ff01789-69e4-4d32-99c8-796ce5326344")
+		(property "Reference" "C23"
+			(at 152.4 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 152.4 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 155.2448 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7afb1f7-7a60-412b-8de1-57deff661519")
+		)
+		(pin "1"
+			(uuid "07209882-a2ea-4aff-80e4-3ed27d94cf9d")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3197,216 +3410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:CP_Radial_D8.0mm_P3.50mm")
-		(at 125.73 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c3b9b12-2bc8-4e4b-99c3-9545a959c91c")
-		(property "Reference" "C19"
-			(at 128.7272 77.5716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 128.7272 79.883 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 126.6952 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "398de7f3-fb5a-4639-b151-a8d6d0cf3e61")
-		)
-		(pin "2"
-			(uuid "d40c106a-1b14-4eea-ab6c-fb7c946bcb67")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:CP_Radial_D8.0mm_P3.50mm")
-		(at 157.48 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c89056a-bae5-42e7-809c-b093b5f77ea8")
-		(property "Reference" "C21"
-			(at 160.4772 76.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,33u"
-			(at 160.4772 78.613 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
-			(at 158.4452 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a80ebde6-a3d8-46d7-b2c5-3f6384bf5e0d")
-		)
-		(pin "2"
-			(uuid "33a2938d-2b53-4c26-a8b8-71b20bf1b89a")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L78L05_TO92")
-		(at 168.91 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "557c56a8-6d11-452b-9b58-d5d449b492fc")
-		(property "Reference" "U7"
-			(at 168.91 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L78L05_TO92"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-92L_Inline_Wide"
-			(at 168.91 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
-			(at 168.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "066dc466-0067-4dee-a264-6fed990c355e")
-		)
-		(pin "3"
-			(uuid "854571cf-b31b-417a-9e3f-830a26c98d9e")
-		)
-		(pin "2"
-			(uuid "1890de16-67db-4a26-a7d7-1a0b34a0cbc3")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 95.25 114.3 90)
 		(unit 1)
@@ -3432,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 95.25 116.078 90)
 			(effects
 				(font
@@ -3469,6 +3472,145 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "674f7571-d61b-45aa-aed0-b97acb3ffb77")
+		(property "Reference" "C21"
+			(at 182.88 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 182.88 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 180.0352 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e38ef88-dab8-43f4-b050-ada6623a8d53")
+		)
+		(pin "1"
+			(uuid "a9cc0dd5-da46-4354-9dd9-56a7abd42bec")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a707708-3932-4abb-bc2b-d43dad6675f4")
+		(property "Reference" "C17"
+			(at 125.73 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 125.73 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 122.8852 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce7c1cd9-4c36-4bfb-8227-0d71ec7dfa36")
+		)
+		(pin "1"
+			(uuid "db75a14e-2395-4d45-8e0d-7062595dc13a")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3541,75 +3683,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e8fa342-0e3e-4a19-a0cf-6d1e2bbeb518")
-		(property "Reference" "C23"
-			(at 181.991 76.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 181.991 78.613 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
-			(at 180.0352 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c71414e-baa7-4ab2-b010-dd4df6d5f884")
-		)
-		(pin "2"
-			(uuid "caba8161-d867-4195-934a-18332398bae2")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 165.1 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3635,7 +3708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.0652 127 0)
 			(effects
 				(font
@@ -3873,6 +3946,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ccfb2b3-e912-4c95-8d8a-7de2af9c0fbb")
+		(property "Reference" "C18"
+			(at 129.54 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 129.54 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 126.6952 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa436dec-7ba5-4cef-b5d6-895fd81636ed")
+		)
+		(pin "1"
+			(uuid "da5a63f6-4aec-469a-9220-8142fdf69324")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 90.17 73.66 0)
 		(mirror x)
@@ -3966,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 154.94 69.85 0)
+		(at 153.67 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3974,7 +4117,7 @@
 		(dnp no)
 		(uuid "927b5a7c-fa09-48b2-91a8-750fb362b337")
 		(property "Reference" "#PWR066"
-			(at 154.94 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4126,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 155.321 65.4558 0)
+			(at 154.051 65.4558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 69.85 0)
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 69.85 0)
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 69.85 0)
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,6 +4167,76 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:MM3Z3V6ST")
+		(at 156.21 123.19 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9afe1df2-481a-4147-9593-133927d8649f")
+		(property "Reference" "DZ1"
+			(at 153.67 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZMM3V6"
+			(at 153.67 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/59602a643d19bb5d35c4e4c7d37742b4/MM3ZxxxST1G_SZMM3ZxxxST1G.pdf"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-323 Zener diode, 3.6V, 300mW, Alternate KiCAD Library"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c939e11-cf58-4d9b-b716-eaa034b6d8ec")
+		)
+		(pin "2"
+			(uuid "78592db8-2dff-4f42-9b0e-a6d76e0df037")
+		)
+		(instances
+			(project ""
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
+					(reference "DZ1")
 					(unit 1)
 				)
 			)
@@ -4095,75 +4308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:CP_Radial_D8.0mm_P3.50mm")
-		(at 125.73 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6e4305a-718a-4685-b3a3-61d9b877b17e")
-		(property "Reference" "C18"
-			(at 128.7272 67.4116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 128.7272 69.723 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 126.6952 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db3a1da7-628f-419a-b429-6e84041ce4d1")
-		)
-		(pin "2"
-			(uuid "9c9f3011-d0cf-4158-9457-4c96de5812b8")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 85.09 120.65 0)
 		(mirror y)
@@ -4191,7 +4335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 84.1248 124.46 0)
 			(effects
 				(font
@@ -4299,76 +4443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 156.21 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be9dc28f-1ddc-4499-8ab2-329fbf7a0cbe")
-		(property "Reference" "D10"
-			(at 158.242 122.0216 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.6"
-			(at 158.242 124.333 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 156.21 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec6eb852-8757-492c-b508-4f8fe590d7fb")
-		)
-		(pin "2"
-			(uuid "9ee5e6a2-2c0e-4045-8756-c50e3af84812")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "PCM_4ms_Diode:B140HW-7")
 		(at 107.95 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4377,23 +4452,23 @@
 		(dnp no)
 		(uuid "c14f9e5d-1587-4563-9930-47106965c893")
 		(property "Reference" "D8"
-			(at 107.95 63.0682 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N5817"
-			(at 107.95 65.3796 0)
+		(property "Value" "B140HW-7"
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 107.95 64.135 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 107.95 68.58 0)
 			(effects
 				(font
@@ -4410,7 +4485,64 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf"
+			(at 110.49 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 110.49 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B140HW-7"
+			(at 110.49 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C134429"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB ID" "C8598"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB Part" "B5819W"
 			(at 107.95 68.58 0)
 			(effects
 				(font
@@ -4565,83 +4697,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:LM4040LP-10")
-		(at 100.33 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5208a85-d5a7-486d-8245-91d3d31e5a27")
-		(property "Reference" "U6"
-			(at 102.87 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM4040LP-10"
-			(at 102.87 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 95.25 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
-			(at 100.33 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10.00V Precision Micropower Shunt Voltage Reference, TO-92"
-			(at 100.33 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e3d4818e-452d-41d6-973b-cd9175a1b65b")
-		)
-		(pin "3"
-			(uuid "44874646-3056-42eb-ad9f-2c5683f260d5")
-		)
-		(pin "1"
-			(uuid "5a9ef4a3-e0e0-4c55-a120-51c915a6fb4e")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/fb22c943-9cff-45ae-b520-01696d5bd22d"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 132.08 120.65 0)
+		(at 133.35 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4649,7 +4706,7 @@
 		(dnp no)
 		(uuid "d9c7c1ed-d067-4d17-8728-b87f54e4c1ed")
 		(property "Reference" "C20"
-			(at 135.001 119.4816 0)
+			(at 136.271 119.4816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4715,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 135.001 121.793 0)
+			(at 136.271 121.793 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,8 +4723,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
-			(at 133.0452 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 134.3152 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -268,7 +268,7 @@
 				)
 			)
 		)
-		(symbol "PCM_Amplifier_Operational_AKL:MCP6002-I-P"
+		(symbol "PCM_Amplifier_Operational_AKL:MCP6002-I-SN"
 			(pin_names
 				(offset 0.2)
 			)
@@ -284,7 +284,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6002-I-P"
+			(property "Value" "MCP6002-I-SN"
 				(at 1.27 3.81 0)
 				(effects
 					(font
@@ -293,7 +293,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_LongPads"
+			(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -311,7 +311,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DIP-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
+			(property "Description" "SO-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -337,7 +337,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP6002-I-P_0_1"
+			(symbol "MCP6002-I-SN_0_1"
 				(polyline
 					(pts
 						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
@@ -351,7 +351,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-I-P_1_1"
+			(symbol "MCP6002-I-SN_1_1"
 				(pin output line
 					(at 8.89 0 180)
 					(length 2.54)
@@ -443,7 +443,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-I-P_2_1"
+			(symbol "MCP6002-I-SN_2_1"
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
@@ -500,7 +500,7 @@
 				)
 			)
 		)
-		(symbol "PCM_Amplifier_Operational_AKL:TL072CP"
+		(symbol "PCM_Amplifier_Operational_AKL:TL072CD"
 			(pin_names
 				(offset 0.2)
 			)
@@ -516,7 +516,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL072CP"
+			(property "Value" "TL072CD"
 				(at 1.27 5.08 0)
 				(effects
 					(font
@@ -525,7 +525,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_LongPads"
+			(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -543,7 +543,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+			(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -569,7 +569,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL072CP_0_1"
+			(symbol "TL072CD_0_1"
 				(polyline
 					(pts
 						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
@@ -583,7 +583,7 @@
 					)
 				)
 			)
-			(symbol "TL072CP_1_1"
+			(symbol "TL072CD_1_1"
 				(pin output line
 					(at 8.89 0 180)
 					(length 2.54)
@@ -675,7 +675,7 @@
 					)
 				)
 			)
-			(symbol "TL072CP_2_1"
+			(symbol "TL072CD_2_1"
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
@@ -1304,6 +1304,12 @@
 		(uuid "a513f374-1bbb-400f-855d-6be55e2d4a45")
 	)
 	(junction
+		(at 219.71 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0b5461c-066d-4c21-a868-c9ff1f7f99c9")
+	)
+	(junction
 		(at 262.89 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1697,6 +1703,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 36.83) (xy 219.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6197f0-bf87-470c-a1d0-dbb6dab97697")
+	)
+	(wire
+		(pts
 			(xy 33.02 46.99) (xy 33.02 34.29)
 		)
 		(stroke
@@ -1787,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 30.48) (xy 215.9 33.02)
+			(xy 219.71 26.67) (xy 219.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1934,6 +1950,16 @@
 			(type default)
 		)
 		(uuid "4f34b9d5-ba25-479d-904c-d1df7f2de76e")
+	)
+	(wire
+		(pts
+			(xy 214.63 36.83) (xy 219.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffc987c-749e-43b4-9c62-22671bf0d04a")
 	)
 	(wire
 		(pts
@@ -2797,6 +2823,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 45.72) (xy 219.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bf55cf-7005-4d0b-8a13-97708ad6ad75")
+	)
+	(wire
+		(pts
 			(xy 33.02 123.19) (xy 33.02 110.49)
 		)
 		(stroke
@@ -2807,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 40.64) (xy 215.9 43.18)
+			(xy 219.71 35.56) (xy 219.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2897,6 +2933,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 39.37) (xy 214.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38d05aa-7464-4230-8d8b-b4e0d63f7c74")
+	)
+	(wire
+		(pts
 			(xy 127 118.11) (xy 127 133.35)
 		)
 		(stroke
@@ -2977,7 +3023,7 @@
 	)
 	(text "Place close to ICs\n"
 		(exclude_from_sim no)
-		(at 225.552 22.352 0)
+		(at 224.79 18.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3482,7 +3528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:TL072CP")
+		(lib_id "PCM_Amplifier_Operational_AKL:TL072CD")
 		(at 200.66 129.54 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3491,22 +3537,24 @@
 		(dnp no)
 		(uuid "1360cfbe-d90b-4176-84a7-f82f1821689b")
 		(property "Reference" "U3"
-			(at 207.772 133.858 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072CP"
-			(at 207.772 136.398 0)
+		(property "Value" "TL072CD"
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 200.66 129.54 0)
 			(effects
 				(font
@@ -3524,7 +3572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 			(at 200.66 129.54 0)
 			(effects
 				(font
@@ -3567,7 +3615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:TL072CP")
+		(lib_id "PCM_Amplifier_Operational_AKL:TL072CD")
 		(at 62.23 130.81 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3576,22 +3624,24 @@
 		(dnp no)
 		(uuid "13a4d056-5501-4483-8ab0-b03a232d81ce")
 		(property "Reference" "U1"
-			(at 69.342 135.128 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072CP"
-			(at 69.342 137.668 0)
+		(property "Value" "TL072CD"
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -3609,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -3678,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 198.12 37.338 90)
 			(effects
 				(font
@@ -3877,7 +3927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.88 110.998 90)
 			(effects
 				(font
@@ -3920,7 +3970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:TL072CP")
+		(lib_id "PCM_Amplifier_Operational_AKL:TL072CD")
 		(at 198.12 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3929,22 +3979,24 @@
 		(dnp no)
 		(uuid "2729ebe4-aee3-4193-ae5a-28e33a1b8dc4")
 		(property "Reference" "U3"
-			(at 205.232 60.198 0)
+			(at 199.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072CP"
-			(at 205.232 62.738 0)
+		(property "Value" "TL072CD"
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 198.12 55.88 0)
 			(effects
 				(font
@@ -3962,7 +4014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 			(at 198.12 55.88 0)
 			(effects
 				(font
@@ -4032,7 +4084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 66.04 90)
 			(effects
 				(font
@@ -4101,7 +4153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 36.068 90)
 			(effects
 				(font
@@ -4428,7 +4480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 257.81 109.5248 0)
 			(effects
 				(font
@@ -4498,7 +4550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.57 33.782 90)
 			(effects
 				(font
@@ -4567,7 +4619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 112.268 90)
 			(effects
 				(font
@@ -4675,7 +4727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-P")
+		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-SN")
 		(at 115.57 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4684,22 +4736,24 @@
 		(dnp no)
 		(uuid "4125e0da-4484-481a-91ee-5837036c46aa")
 		(property "Reference" "U2"
-			(at 124.46 61.214 0)
+			(at 116.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-I-P"
-			(at 124.46 63.754 0)
+		(property "Value" "MCP6002-I-SN"
+			(at 116.84 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -4717,7 +4771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -4761,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 215.9 30.48 0)
+		(at 219.71 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4769,7 +4823,7 @@
 		(dnp no)
 		(uuid "42961f8b-35bd-4529-9fd6-b046f1bfd4ad")
 		(property "Reference" "#PWR041"
-			(at 215.9 34.29 0)
+			(at 219.71 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4832,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 216.281 26.0858 0)
+			(at 220.091 22.2758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 30.48 0)
+			(at 219.71 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 30.48 0)
+			(at 219.71 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4858,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 30.48 0)
+			(at 219.71 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 200.66 110.998 90)
 			(effects
 				(font
@@ -4921,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 129.032 90)
 			(effects
 				(font
@@ -4991,7 +5045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 155.702 90)
 			(effects
 				(font
@@ -5061,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 127 90)
 			(effects
 				(font
@@ -5104,6 +5158,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bc69423-8e68-48e8-9735-29561c412efd")
+		(property "Reference" "#PWR021"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.757 43.7642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81e41342-3f2f-41aa-9569-4e8b78ec15e6")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/e34989fd-e213-4a82-b6f6-21719e3add58"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 35.56 0)
 		(unit 1)
@@ -5130,7 +5249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.9752 39.37 0)
 			(effects
 				(font
@@ -5200,7 +5319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 115.062 90)
 			(effects
 				(font
@@ -5270,7 +5389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.57 116.332 90)
 			(effects
 				(font
@@ -5379,7 +5498,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 215.9 43.18 180)
+		(at 219.71 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5387,7 +5506,7 @@
 		(dnp no)
 		(uuid "6a9e5bdb-3eb8-4a4c-83ea-6cb721f09acd")
 		(property "Reference" "#PWR042"
-			(at 215.9 45.72 0)
+			(at 219.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5515,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 215.519 47.5742 0)
+			(at 219.329 51.3842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 43.18 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +5532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 43.18 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 43.18 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,6 +5692,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 219.71 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7480974c-69f3-458d-b152-91e4e999ce83")
+		(property "Reference" "C26"
+			(at 222.631 40.7416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 222.631 43.053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 220.6752 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "579de842-1626-482b-b093-a88dc0aa3b91")
+		)
+		(pin "2"
+			(uuid "f5c3c99b-49f6-4d8d-94f9-32c0af5ca018")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/e34989fd-e213-4a82-b6f6-21719e3add58"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 218.44 129.54 90)
 		(mirror x)
@@ -5600,7 +5788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 218.44 127.762 90)
 			(effects
 				(font
@@ -5735,7 +5923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 52.832 90)
 			(effects
 				(font
@@ -5870,7 +6058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 142.24 90)
 			(effects
 				(font
@@ -5939,7 +6127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 36.068 90)
 			(effects
 				(font
@@ -6009,7 +6197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 251.46 35.052 90)
 			(effects
 				(font
@@ -6078,7 +6266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 112.268 90)
 			(effects
 				(font
@@ -6148,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 232.7148 40.64 0)
 			(effects
 				(font
@@ -6256,7 +6444,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:TL072CP")
+		(lib_id "PCM_Amplifier_Operational_AKL:TL072CD")
 		(at 62.23 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6265,22 +6453,24 @@
 		(dnp no)
 		(uuid "8f811de8-1875-41ab-af0c-706b4ae38038")
 		(property "Reference" "U1"
-			(at 69.342 58.928 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072CP"
-			(at 69.342 61.468 0)
+		(property "Value" "TL072CD"
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 62.23 54.61 0)
 			(effects
 				(font
@@ -6298,7 +6488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 			(at 62.23 54.61 0)
 			(effects
 				(font
@@ -6368,7 +6558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.132 52.07 90)
 			(effects
 				(font
@@ -6438,7 +6628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 169.672 140.97 90)
 			(effects
 				(font
@@ -6505,7 +6695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 29.5148 0)
 			(effects
 				(font
@@ -6575,7 +6765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 215.9 80.772 90)
 			(effects
 				(font
@@ -6644,7 +6834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 180.34 37.338 90)
 			(effects
 				(font
@@ -6714,7 +6904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 50.8 90)
 			(effects
 				(font
@@ -6849,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 218.44 154.432 90)
 			(effects
 				(font
@@ -6893,7 +7083,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 36.83 0)
+		(at 219.71 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6901,7 +7091,7 @@
 		(dnp no)
 		(uuid "b625eb04-5512-4889-a1d1-ff5a4166cd90")
 		(property "Reference" "C5"
-			(at 218.821 35.6616 0)
+			(at 222.631 30.5816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7100,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 218.821 37.973 0)
+			(at 222.631 32.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,8 +7108,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
-			(at 216.8652 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 220.6752 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +7118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 36.83 0)
+			(at 219.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +7127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 36.83 0)
+			(at 219.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 169.672 125.73 90)
 			(effects
 				(font
@@ -7096,7 +7286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-P")
+		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-SN")
 		(at 251.46 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7105,22 +7295,24 @@
 		(dnp no)
 		(uuid "c556d62f-e5f1-42aa-be20-03ebd9f0b8ed")
 		(property "Reference" "U4"
-			(at 260.35 62.484 0)
+			(at 252.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-I-P"
-			(at 260.35 65.024 0)
+		(property "Value" "MCP6002-I-SN"
+			(at 252.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -7138,7 +7330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -7208,7 +7400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 96.8248 39.37 0)
 			(effects
 				(font
@@ -7251,7 +7443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-P")
+		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-SN")
 		(at 115.57 133.35 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7260,22 +7452,24 @@
 		(dnp no)
 		(uuid "ccbb3cf4-ead4-4aa4-a679-51f90afa1fdd")
 		(property "Reference" "U2"
-			(at 124.46 137.414 0)
+			(at 116.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-I-P"
-			(at 124.46 139.954 0)
+		(property "Value" "MCP6002-I-SN"
+			(at 116.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 115.57 133.35 0)
 			(effects
 				(font
@@ -7293,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
 			(at 115.57 133.35 0)
 			(effects
 				(font
@@ -7360,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 255.27 30.7848 0)
 			(effects
 				(font
@@ -7495,7 +7689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 215.9 54.102 90)
 			(effects
 				(font
@@ -7565,7 +7759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.132 67.31 90)
 			(effects
 				(font
@@ -7632,7 +7826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 110.7948 0)
 			(effects
 				(font
@@ -7675,7 +7869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-P")
+		(lib_id "PCM_Amplifier_Operational_AKL:MCP6002-I-SN")
 		(at 254 132.08 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7684,22 +7878,24 @@
 		(dnp no)
 		(uuid "e552cfad-b98f-4a37-ab3a-3d61ed36f833")
 		(property "Reference" "U4"
-			(at 262.89 136.144 0)
+			(at 255.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-I-P"
-			(at 262.89 138.684 0)
+		(property "Value" "MCP6002-I-SN"
+			(at 255.27 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 254 132.08 0)
 			(effects
 				(font
@@ -7717,7 +7913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual CMOS RRIO Operational Amplifier, 4.5mV Offset, 2μV/°C Drift, 1MHz GBW, Alternate KiCAD Library"
 			(at 254 132.08 0)
 			(effects
 				(font
@@ -7852,7 +8048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 79.502 90)
 			(effects
 				(font

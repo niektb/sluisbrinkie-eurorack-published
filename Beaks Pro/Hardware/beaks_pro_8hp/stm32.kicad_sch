@@ -1050,14 +1050,13 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
-			(pin_names
-				(offset 0) hide)
+		(symbol "PCM_Transistor_BJT_AKL:MMSS8050"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1065,8 +1064,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
+			(property "Value" "MMSS8050"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1074,28 +1073,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Datasheet" "https://www.tme.eu/Document/724c1368d1e41c0842e24711fa206132/MMSS8050.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1104,7 +1091,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Description" "NPN SOT-23 transistor, 25V, 1.5A, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1113,7 +1100,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_keywords" "transistor NPN MMSS8050"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1122,7 +1109,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "MMSS8050_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1179,15 +1166,15 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "MMSS8050_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1203,9 +1190,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2752,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 177.8 102.87)
+			(xy 158.75 102.87) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2799,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 114.3 85.09)
+			(xy 78.74 85.09) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 114.3 90.17)
+			(xy 78.74 90.17) (xy 114.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 114.3 87.63)
+			(xy 78.74 87.63) (xy 114.3 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 80.01) (xy 114.3 80.01)
+			(xy 78.74 80.01) (xy 114.3 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 92.71) (xy 114.3 92.71)
+			(xy 78.74 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3089,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 77.47) (xy 114.3 77.47)
+			(xy 78.74 77.47) (xy 114.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3141,7 @@
 		(uuid "3fe05589-d009-4da6-880d-42e5f521a558")
 	)
 	(label "CV3"
-		(at 113.03 87.63 180)
+		(at 96.52 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3187,7 +3174,7 @@
 		(uuid "70485c9d-27aa-4ef7-8d4f-a730d58e07a0")
 	)
 	(label "SW_DUAL"
-		(at 113.03 77.47 180)
+		(at 96.52 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3209,7 +3196,7 @@
 		(uuid "a1c806b4-fff6-4e9a-bf33-b8c210e64fac")
 	)
 	(label "CV1"
-		(at 113.03 92.71 180)
+		(at 96.52 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3275,7 +3262,7 @@
 		(uuid "cc8a67c3-a456-489b-ac65-36edf57f6a6f")
 	)
 	(label "CV4"
-		(at 113.03 85.09 180)
+		(at 96.52 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3319,7 +3306,7 @@
 		(uuid "e94272ca-6bfe-4486-a4d3-898d6d2d12ef")
 	)
 	(label "SW_MODE"
-		(at 113.03 80.01 180)
+		(at 96.52 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3341,7 +3328,7 @@
 		(uuid "ec938808-7b12-4d45-8e57-56d02ff98767")
 	)
 	(label "CV2"
-		(at 113.03 90.17 180)
+		(at 96.52 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3411,7 +3398,7 @@
 	)
 	(hierarchical_label "CV4"
 		(shape input)
-		(at 95.25 85.09 180)
+		(at 78.74 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3483,7 +3470,7 @@
 	)
 	(hierarchical_label "CV3"
 		(shape input)
-		(at 95.25 87.63 180)
+		(at 78.74 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3495,7 +3482,7 @@
 	)
 	(hierarchical_label "CV2"
 		(shape input)
-		(at 95.25 90.17 180)
+		(at 78.74 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3519,7 +3506,7 @@
 	)
 	(hierarchical_label "SW_DUAL"
 		(shape input)
-		(at 95.25 77.47 180)
+		(at 78.74 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3543,7 +3530,7 @@
 	)
 	(hierarchical_label "SW_MODE"
 		(shape input)
-		(at 95.25 80.01 180)
+		(at 78.74 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3567,7 +3554,7 @@
 	)
 	(hierarchical_label "CV1"
 		(shape input)
-		(at 95.25 92.71 180)
+		(at 78.74 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3652,7 +3639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 112.268 90)
 			(effects
 				(font
@@ -3785,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 230.378 73.66 90)
 			(effects
 				(font
@@ -3893,6 +3880,80 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:MMSS8050")
+		(at 231.14 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17f7b60f-3909-4b80-b68a-d5a7f94424cd")
+		(property "Reference" "Q2"
+			(at 226.06 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S8050 J3Y"
+			(at 226.06 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/724c1368d1e41c0842e24711fa206132/MMSS8050.pdf"
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-23 transistor, 25V, 1.5A, Alternate KiCAD Library"
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "058a0b9f-b20e-4267-8ec1-0c9dde77865a")
+		)
+		(pin "1"
+			(uuid "eb5ea0f5-cb73-499a-95e7-ee360666ab9b")
+		)
+		(pin "2"
+			(uuid "5f4c05d6-1c82-41b2-ba75-3c398edb0663")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/c956c443-8c3f-46ea-9c29-6dc3e5d86623"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 177.8 80.01 270)
 		(unit 1)
@@ -3985,7 +4046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 99.568 90)
 			(effects
 				(font
@@ -4375,7 +4436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 230.378 106.68 90)
 			(effects
 				(font
@@ -4483,82 +4544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 231.14 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8171c004-a695-45b6-9ced-7b0e8677dce1")
-		(property "Reference" "Q1"
-			(at 226.314 82.6516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 226.314 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 226.06 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbc78558-9f32-442a-9e29-6a34e435ad5d")
-		)
-		(pin "2"
-			(uuid "3bf6ca56-7330-4d40-8a89-2b93c8938cda")
-		)
-		(pin "3"
-			(uuid "02b29907-271f-4a66-9850-2dcbf5bafda8")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/c956c443-8c3f-46ea-9c29-6dc3e5d86623"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 105.41 105.41 90)
 		(unit 1)
@@ -4585,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 107.188 90)
 			(effects
 				(font
@@ -4843,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 240.03 118.618 90)
 			(effects
 				(font
@@ -4952,6 +4937,80 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:MMSS8050")
+		(at 231.14 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb604b7-8027-414a-b32a-dd1c2ef72c6b")
+		(property "Reference" "Q1"
+			(at 226.06 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S8050 J3Y"
+			(at 226.06 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/724c1368d1e41c0842e24711fa206132/MMSS8050.pdf"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-23 transistor, 25V, 1.5A, Alternate KiCAD Library"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48993885-1fa1-4f05-80cb-56556666faf2")
+		)
+		(pin "1"
+			(uuid "7749c456-0773-48c8-b162-11bbccc474bc")
+		)
+		(pin "2"
+			(uuid "a85964ef-cf04-49f6-9e50-8d1a8efc1a7b")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/c956c443-8c3f-46ea-9c29-6dc3e5d86623"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 105.41 102.87 90)
 		(unit 1)
@@ -4978,7 +5037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 104.648 90)
 			(effects
 				(font
@@ -5046,7 +5105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 240.03 85.598 90)
 			(effects
 				(font
@@ -5083,82 +5142,6 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/c956c443-8c3f-46ea-9c29-6dc3e5d86623"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 231.14 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc428d55-12e2-4451-9650-8ed7b2e263bc")
-		(property "Reference" "Q2"
-			(at 226.314 115.6716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 226.314 117.983 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 226.06 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
-			(at 231.14 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ff8f9cd-1533-4d1b-acda-96e4e7a7e21d")
-		)
-		(pin "2"
-			(uuid "c8ae1e55-9e87-499c-a98f-67ea174d7742")
-		)
-		(pin "3"
-			(uuid "9cad47c9-5b87-4bf8-830a-a872c829c18d")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/c956c443-8c3f-46ea-9c29-6dc3e5d86623"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5378,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 102.108 90)
 			(effects
 				(font
@@ -5447,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 109.728 90)
 			(effects
 				(font
@@ -5516,7 +5499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 97.028 90)
 			(effects
 				(font

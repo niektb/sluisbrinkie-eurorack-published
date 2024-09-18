@@ -11,395 +11,6 @@
 		(company "Sluisbrinkie")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL074"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL074"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quad opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL074_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_5_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -657,7 +268,7 @@
 				)
 			)
 		)
-		(symbol "PCM_Amplifier_Operational_AKL:TL072CP"
+		(symbol "PCM_Amplifier_Operational_AKL:TL072CD"
 			(pin_names
 				(offset 0.2)
 			)
@@ -673,7 +284,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL072CP"
+			(property "Value" "TL072CD"
 				(at 1.27 5.08 0)
 				(effects
 					(font
@@ -682,7 +293,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_LongPads"
+			(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -700,7 +311,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+			(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -726,7 +337,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL072CP_0_1"
+			(symbol "TL072CD_0_1"
 				(polyline
 					(pts
 						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
@@ -740,7 +351,7 @@
 					)
 				)
 			)
-			(symbol "TL072CP_1_1"
+			(symbol "TL072CD_1_1"
 				(pin output line
 					(at 8.89 0 180)
 					(length 2.54)
@@ -832,7 +443,7 @@
 					)
 				)
 			)
-			(symbol "TL072CP_2_1"
+			(symbol "TL072CD_2_1"
 				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
@@ -880,6 +491,350 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Amplifier_Operational_AKL:TL074CD"
+			(pin_names
+				(offset 0.2)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL074CD"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1635057479364"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SO-14 Quad JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp operational amplifier jfet low noise TL074"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL074CD_0_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TL074CD_1_1"
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.18)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.18)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074CD_2_1"
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074CD_3_1"
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074CD_4_1"
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1203,16 +1158,28 @@
 		)
 	)
 	(junction
-		(at 144.78 63.5)
+		(at 113.03 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0365336e-103b-4ca0-9a36-4ec7e78a916b")
+		(uuid "0b5223d0-4281-45d7-84bc-7705460a1765")
+	)
+	(junction
+		(at 144.78 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d390f87-427d-405a-a0af-ae99036960e8")
 	)
 	(junction
 		(at 157.48 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1065a696-8198-400a-a3b1-ff94f380ccc2")
+	)
+	(junction
+		(at 113.03 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12dcc0f7-c65d-4b8b-a9b6-9382bd221b35")
 	)
 	(junction
 		(at 125.73 60.96)
@@ -1227,16 +1194,10 @@
 		(uuid "2c573203-4cc4-4c3b-8a24-1af26e14e362")
 	)
 	(junction
-		(at 144.78 130.81)
+		(at 111.76 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "315f961e-4d6c-40bb-99cc-f8a2e7eac0ba")
-	)
-	(junction
-		(at 113.03 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "412e57d1-aef2-4fa6-9385-145a556f3de6")
+		(uuid "2ea5ba5e-2e14-46fd-9f46-4756a2d9b635")
 	)
 	(junction
 		(at 72.39 125.73)
@@ -1255,12 +1216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "497f3157-1c28-4663-8238-da1ae4924d41")
-	)
-	(junction
-		(at 113.03 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b043c8d-7959-4ca1-a7ea-e3f8b4d50416")
 	)
 	(junction
 		(at 85.09 125.73)
@@ -1287,12 +1242,6 @@
 		(uuid "622aafa6-08c8-4a6d-9fe1-15247b5e26b0")
 	)
 	(junction
-		(at 111.76 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "670a84e5-55e6-45f7-9e96-1b43c3502f35")
-	)
-	(junction
 		(at 125.73 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1305,10 +1254,10 @@
 		(uuid "8c4e4ecf-5915-4eb8-b7cf-fff28d1c3f0f")
 	)
 	(junction
-		(at 111.76 166.37)
+		(at 144.78 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f763758-575e-4254-8561-24ee4981f4ff")
+		(uuid "9493edd7-466a-47e0-963c-77835584c8c2")
 	)
 	(junction
 		(at 125.73 49.53)
@@ -1391,16 +1340,6 @@
 			(type default)
 		)
 		(uuid "016044ff-f41c-4af5-82cd-1568a1583360")
-	)
-	(wire
-		(pts
-			(xy 113.03 68.58) (xy 113.03 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02005ba9-91d0-4359-9432-b45f1e48712c")
 	)
 	(wire
 		(pts
@@ -1604,6 +1543,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 171.45) (xy 111.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3805991c-162d-46bc-bcbd-96b3c5b37658")
+	)
+	(wire
+		(pts
 			(xy 200.66 66.04) (xy 200.66 71.12)
 		)
 		(stroke
@@ -1611,6 +1560,16 @@
 			(type default)
 		)
 		(uuid "3994367c-7c38-4a49-9b66-7b343d6f72f7")
+	)
+	(wire
+		(pts
+			(xy 111.76 161.29) (xy 111.76 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a473de-3557-4160-98f9-241bc500c0b8")
 	)
 	(wire
 		(pts
@@ -1634,16 +1593,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 128.27) (xy 114.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe9f544-8f48-48f9-ad6a-514861c8d5a2")
-	)
-	(wire
-		(pts
 			(xy 186.69 63.5) (xy 194.31 63.5)
 		)
 		(stroke
@@ -1651,16 +1600,6 @@
 			(type default)
 		)
 		(uuid "4061e5c4-3993-4d9a-af97-984e0299b354")
-	)
-	(wire
-		(pts
-			(xy 102.87 166.37) (xy 111.76 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ee436d-edfc-4269-890a-bd50b917dba0")
 	)
 	(wire
 		(pts
@@ -1744,6 +1683,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 128.27) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59452356-1892-44b9-ac99-3672796d8d6f")
+	)
+	(wire
+		(pts
 			(xy 125.73 110.49) (xy 125.73 116.84)
 		)
 		(stroke
@@ -1814,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 60.96) (xy 114.3 60.96)
+			(xy 113.03 60.96) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1904,6 +1853,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791b042f-2b38-4066-aec3-558b1b05d339")
+	)
+	(wire
+		(pts
 			(xy 157.48 63.5) (xy 161.29 63.5)
 		)
 		(stroke
@@ -1921,16 +1880,6 @@
 			(type default)
 		)
 		(uuid "88323480-8243-4b31-99ab-9bb142c3b255")
-	)
-	(wire
-		(pts
-			(xy 111.76 149.86) (xy 111.76 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c892403-7634-4efa-b154-be5a53fccc60")
 	)
 	(wire
 		(pts
@@ -2044,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 151.13) (xy 102.87 154.94)
+			(xy 111.76 149.86) (xy 111.76 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2284,13 +2233,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 167.64) (xy 111.76 166.37)
+			(xy 111.76 158.75) (xy 111.76 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce85c93d-91c9-4149-bd2e-b6ae017cb6f5")
+	)
+	(wire
+		(pts
+			(xy 102.87 161.29) (xy 111.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00cd264-d2e8-4154-a429-51c136c722af")
 	)
 	(wire
 		(pts
@@ -2311,16 +2270,6 @@
 			(type default)
 		)
 		(uuid "d8db59d0-a42e-4783-8066-02a751d4892e")
-	)
-	(wire
-		(pts
-			(xy 102.87 151.13) (xy 111.76 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9e4a87b-3206-4185-9597-b647c13dec54")
 	)
 	(wire
 		(pts
@@ -2464,13 +2413,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 162.56) (xy 102.87 166.37)
+			(xy 102.87 162.56) (xy 102.87 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fad04083-0fec-4996-8540-e1035f019305")
+		(uuid "f612032e-51aa-4acf-9dae-04036f2a2b88")
 	)
 	(wire
 		(pts
@@ -2780,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 42.2148 0)
 			(effects
 				(font
@@ -2847,7 +2796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 199.39 149.352 90)
 			(effects
 				(font
@@ -2917,7 +2866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 95.25 90)
 			(effects
 				(font
@@ -2984,10 +2933,9 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 201.6252 66.04 0)
 			(effects
 				(font
@@ -3056,7 +3004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.0552 66.04 0)
 			(effects
 				(font
@@ -3100,7 +3048,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 111.76 167.64 180)
+		(at 111.76 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3108,7 +3056,7 @@
 		(dnp no)
 		(uuid "19ca7b7b-acea-470d-9ab2-7132edc6cf2a")
 		(property "Reference" "#PWR054"
-			(at 111.76 170.18 0)
+			(at 111.76 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3065,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 111.379 172.0342 0)
+			(at 111.379 179.6542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 167.64 0)
+			(at 111.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 167.64 0)
+			(at 111.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 167.64 0)
+			(at 111.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 200.66 82.042 90)
 			(effects
 				(font
@@ -3255,7 +3203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 120.142 90)
 			(effects
 				(font
@@ -3298,35 +3246,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 109.22 158.75 0)
-		(mirror y)
-		(unit 5)
+		(lib_id "power:+12V")
+		(at 135.89 124.46 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "33757b0a-70fa-4d2a-9061-1896dd0119eb")
-		(property "Reference" "U5"
-			(at 113.9952 157.5816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TL074"
-			(at 113.9952 159.893 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 110.49 156.21 0)
+		(uuid "33068af1-5fb2-4e6a-ba46-be28bcbf8e69")
+		(property "Reference" "#PWR092"
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,8 +3263,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 107.95 153.67 0)
+		(property "Value" "+12V"
+			(at 136.271 120.0658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 158.75 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,58 +3299,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b0fd955-a4fa-47f4-b3a2-bfc67d578631")
-		)
-		(pin "2"
-			(uuid "3c762625-af42-4e0c-9224-8bb294fcdb2d")
-		)
-		(pin "3"
-			(uuid "84f70d3c-fb7c-4086-93f1-b9acee966124")
-		)
-		(pin "5"
-			(uuid "addf0ab9-dfc5-431c-a6b8-a105a2d535e7")
-		)
-		(pin "6"
-			(uuid "a2deb9f3-1003-4e02-bdb7-f0bfa22b7722")
-		)
-		(pin "7"
-			(uuid "6b87c638-5424-40bb-9951-82f670f2c11e")
-		)
-		(pin "10"
-			(uuid "f979c011-13de-4f05-81ff-fc7c2356cc14")
-		)
-		(pin "8"
-			(uuid "e767ffad-bbdf-45cb-868d-332e2388762d")
-		)
-		(pin "9"
-			(uuid "f331747e-d5a6-405e-90a8-18f6127aac6f")
-		)
-		(pin "12"
-			(uuid "f5c476f8-8f04-493d-a1ac-d8db210e5e49")
-		)
-		(pin "13"
-			(uuid "f60f9a64-eba3-46d7-97e6-c60ee2b63ee8")
-		)
-		(pin "14"
-			(uuid "76392761-726b-4d5b-a4ae-5875a5f73004")
-		)
-		(pin "11"
-			(uuid "0b5af5fb-8204-4ce5-8a89-c68ae6e5988b")
-		)
-		(pin "4"
-			(uuid "11e28d64-d3a1-4b06-b6e9-5a161e836d56")
+			(uuid "de0b0c0b-ec27-4577-8d38-b194e029e376")
 		)
 		(instances
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
-					(reference "U5")
-					(unit 5)
+					(reference "#PWR092")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:TL072CP")
+		(lib_id "PCM_Amplifier_Operational_AKL:TL072CD")
 		(at 181.61 151.13 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3413,22 +3320,24 @@
 		(dnp no)
 		(uuid "36278389-d0d7-4087-9cc6-06c11418bdd8")
 		(property "Reference" "U9"
-			(at 188.722 155.448 0)
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072CP"
-			(at 188.722 157.988 0)
+		(property "Value" "TL072CD"
+			(at 182.88 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 181.61 151.13 0)
 			(effects
 				(font
@@ -3446,7 +3355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 			(at 181.61 151.13 0)
 			(effects
 				(font
@@ -3515,7 +3424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 181.61 132.588 90)
 			(effects
 				(font
@@ -3647,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 50.292 90)
 			(effects
 				(font
@@ -3781,7 +3690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.0552 133.35 0)
 			(effects
 				(font
@@ -3848,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 56.642 90)
 			(effects
 				(font
@@ -3915,7 +3824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.89 47.752 90)
 			(effects
 				(font
@@ -3958,9 +3867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 137.16 130.81 0)
-		(mirror x)
+		(lib_id "PCM_Amplifier_Operational_AKL:TL074CD")
+		(at 135.89 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3968,32 +3876,25 @@
 		(dnp no)
 		(uuid "64fd9421-efff-4ae2-a59c-8b8bb5732471")
 		(property "Reference" "U5"
-			(at 137.16 121.4882 0)
+			(at 140.208 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL074"
-			(at 137.16 123.7996 0)
+		(property "Value" "TL074CD"
+			(at 140.208 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 135.89 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 138.43 135.89 0)
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,8 +3902,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 137.16 130.81 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1635057479364"
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-14 Quad JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,6 +3966,71 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68bcec75-04f4-431a-9905-2e870a21f709")
+		(property "Reference" "#PWR01"
+			(at 102.87 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.997 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e0a715-3811-40ad-8a6f-a566a1304309")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.89 115.062 90)
 			(effects
 				(font
@@ -4218,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 109.5248 0)
 			(effects
 				(font
@@ -4285,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 126.492 90)
 			(effects
 				(font
@@ -4419,7 +4394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 65.278 90)
 			(effects
 				(font
@@ -4488,7 +4463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.3552 66.04 0)
 			(effects
 				(font
@@ -4558,7 +4533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 150.622 147.32 90)
 			(effects
 				(font
@@ -4625,7 +4600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 56.642 90)
 			(effects
 				(font
@@ -4760,7 +4735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 150.622 162.56 90)
 			(effects
 				(font
@@ -4827,7 +4802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 117.602 90)
 			(effects
 				(font
@@ -4935,7 +4910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:TL072CP")
+		(lib_id "PCM_Amplifier_Operational_AKL:TL072CD")
 		(at 182.88 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4944,22 +4919,24 @@
 		(dnp no)
 		(uuid "b26258be-4995-4d4f-8d0c-051de4466443")
 		(property "Reference" "U9"
-			(at 189.992 88.138 0)
+			(at 184.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL072CP"
-			(at 189.992 90.678 0)
+		(property "Value" "TL072CD"
+			(at 184.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
 			(at 182.88 83.82 0)
 			(effects
 				(font
@@ -4977,7 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIP-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+		(property "Description" "SO-8 Dual JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
 			(at 182.88 83.82 0)
 			(effects
 				(font
@@ -5020,9 +4997,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 137.16 63.5 0)
-		(mirror x)
+		(lib_id "PCM_Amplifier_Operational_AKL:TL074CD")
+		(at 135.89 63.5 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5030,32 +5006,25 @@
 		(dnp no)
 		(uuid "b2ed6d2e-c28b-4617-b5a9-48d71819f3e8")
 		(property "Reference" "U5"
-			(at 137.16 54.1782 0)
+			(at 133.858 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL074"
-			(at 137.16 56.4896 0)
+		(property "Value" "TL074CD"
+			(at 133.858 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 138.43 68.58 0)
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 135.89 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,8 +5032,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 137.16 63.5 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1635057479364"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-14 Quad JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+			(at 135.89 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 80.01 90)
 			(effects
 				(font
@@ -5220,7 +5198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.88 65.278 90)
 			(effects
 				(font
@@ -5287,7 +5265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 123.952 90)
 			(effects
 				(font
@@ -5331,7 +5309,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 158.75 0)
+		(at 111.76 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5339,7 +5317,7 @@
 		(dnp no)
 		(uuid "b9a54947-e72f-42b8-af9a-3a0763144a7e")
 		(property "Reference" "C13"
-			(at 105.791 157.5816 0)
+			(at 114.681 153.7716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5326,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 105.791 159.893 0)
+			(at 114.681 156.083 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,8 +5334,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
-			(at 103.8352 162.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 112.7252 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 158.75 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 158.75 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,32 +5442,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 105.41 128.27 0)
-		(unit 2)
+		(lib_id "power:-12V")
+		(at 135.89 137.16 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cecd3d7a-573e-4d12-a12f-bc424bc2b349")
-		(property "Reference" "U5"
-			(at 105.41 118.9482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 105.41 121.2596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 104.14 125.73 0)
+		(uuid "c3d11292-9ee9-4c3a-8d0c-605264006cc8")
+		(property "Reference" "#PWR093"
+			(at 135.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,8 +5459,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 106.68 123.19 0)
+		(property "Value" "-12V"
+			(at 135.509 141.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5486,143 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 128.27 0)
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "447f519b-35da-4d73-a0ae-aeae1fc21522")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c58b46f9-1280-426e-b772-4c627553a73b")
+		(property "Reference" "C25"
+			(at 114.681 166.4716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 114.681 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 112.7252 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a57b106-b249-47fd-b160-dd340b06e929")
+		)
+		(pin "2"
+			(uuid "222d44ed-d3e7-4607-b501-261264f3abc7")
+		)
+		(instances
+			(project "beaks_pro"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/99906ae3-98ff-4cae-8d04-81301831aa4e"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL074CD")
+		(at 104.14 128.27 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cecd3d7a-573e-4d12-a12f-bc424bc2b349")
+		(property "Reference" "U5"
+			(at 98.298 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074CD"
+			(at 98.298 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1635057479364"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-14 Quad JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+			(at 104.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 123.952 90)
 			(effects
 				(font
@@ -5658,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 52.832 90)
 			(effects
 				(font
@@ -5792,7 +5907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 163.83 132.588 90)
 			(effects
 				(font
@@ -5989,7 +6104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 56.642 90)
 			(effects
 				(font
@@ -6056,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 123.952 90)
 			(effects
 				(font
@@ -6123,7 +6238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 59.182 90)
 			(effects
 				(font
@@ -6192,7 +6307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.3552 133.35 0)
 			(effects
 				(font
@@ -6430,8 +6545,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 105.41 60.96 0)
+		(lib_id "PCM_Amplifier_Operational_AKL:TL074CD")
+		(at 104.14 60.96 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6439,32 +6555,25 @@
 		(dnp no)
 		(uuid "f9ef87c6-8089-489d-b0c5-8af721da14b3")
 		(property "Reference" "U5"
-			(at 105.41 51.6382 0)
+			(at 99.822 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL074"
-			(at 105.41 53.9496 0)
+		(property "Value" "TL074CD"
+			(at 99.822 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 106.68 55.88 0)
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,8 +6581,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 60.96 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1635057479364"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-14 Quad JFET Low Noise Operational Amplifier, 10mV Offset, 8nV/√Hz Noise, 1MHz GBW, Alternate KiCAD Library"
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
