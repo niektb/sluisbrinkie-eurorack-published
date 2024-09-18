@@ -63,7 +63,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -478,7 +478,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(125, 251, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -766,12 +768,12 @@
       "netlist": "../../../../../../../../Applications/KiCad/",
       "plot": "Gerber/",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "AutoRouter/beaks_pro_10HPFront.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/Drawing Sheet By Nacho.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
