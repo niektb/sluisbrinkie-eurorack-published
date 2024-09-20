@@ -138,7 +138,7 @@
         "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.05,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "beaks_pro.kicad_pro",
+    "filename": "andes.kicad_pro",
     "version": 1
   },
   "net_settings": {
