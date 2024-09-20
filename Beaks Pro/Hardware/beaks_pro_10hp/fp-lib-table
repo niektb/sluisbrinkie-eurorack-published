@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "BluePill_breakouts")(type "KiCad")(uri "${KIPRJMOD}/BluePill_breakouts.pretty")(options "")(descr ""))
-  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
-)
