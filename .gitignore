@@ -1,2 +1,4 @@
 Beaks\ Pro/Hardware/andes_12hp/andes_12hp-backups/
 Beaks\ Pro/Hardware/andes_8hp/andes_8hp-backups/
+*.DS_Store
+/Beaks Pro/Hardware/andes_10hp/andes_10HP-backups

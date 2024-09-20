@@ -1,4 +1,4 @@
-23860461133754124
+23855282720872877
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -356,13 +356,6 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-BluePill_breakouts
-BluePill_STM32F103C
-STM32F103C8 BluePill board
-
-0
-42
-42
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -64700,34 +64693,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D
-TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
-WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
-0
-3
-3
-Library
-ML6-H2T2GQA
-
-
-0
-7
-7
-Library
-Potentiometer_Alps_RK09K_Single_Vertical
-113004U 1130A6S 11300DR 1130A8G 1130081 1130A5R 1130AP5 1130AST  D1130C3W D1130C1B D1130C3C D1130C2P Potentiometer, vertical, Alps RK09K Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf
-Potentiometer vertical Alps RK09K RK09D Single Snapin
-0
-5
-4
-Library
-Potentiometer_Alps_RK09K_Single_Vertical_DSHAFT
-113004U 1130A6S 11300DR 1130A8G 1130081 1130A5R 1130AP5 1130AST  D1130C3W D1130C1B D1130C3C D1130C2P Potentiometer, vertical, Alps RK09K Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf
-Potentiometer vertical Alps RK09K RK09D Single Snapin
-0
-5
-4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -89012,7 +88977,21 @@ rotary encoder illuminated switch vertical
 9
 8
 SVG FRONT PLATE
+ANDES
+
+
+0
+0
+0
+SVG FRONT PLATE
 drawing
+
+
+0
+0
+0
+SVG FRONT PLATE
+mountains
 
 
 0
