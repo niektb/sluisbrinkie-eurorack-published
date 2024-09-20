@@ -1,13 +1,1 @@
-
-*.lck
-*.gbr
-.DS_Store
-*_autosave*
-fp-info-cache
-*-backup*
-*-Backup*
-/*/*-backups
-Beaks Pro/Hardware/beaks_pro_10hp/fp-info-cache
-Beaks Pro/Hardware/beaks_pro_10hp/fp-info-cache
-/Beaks Pro/Hardware/beaks_pro_10hp/beaks_pro_10HP-backups
-Beaks Pro/Hardware/beaks_pro_10hp/fp-info-cache
+Beaks\ Pro/Hardware/andes_12hp/andes_12hp-backups/

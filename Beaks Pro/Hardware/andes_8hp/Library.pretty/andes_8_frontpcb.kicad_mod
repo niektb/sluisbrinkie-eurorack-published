@@ -1,0 +1,92 @@
+(footprint "andes_8_frontpcb"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.5 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bee76cf5-89f5-4f17-bde6-40ec18664203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "andes_8_frontpcb"
+		(at 7.5 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "44a27185-ab17-4ad8-8403-1d60cc9acaf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 7.5 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5739637c-e0a4-4366-b058-3dc037ff86cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 7.5 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5bab83a-5cd5-4929-80ad-8ddcf5ad6c91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 7.5 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57097959-fda0-4e0b-b91e-bae3b7ce9e75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2ff73f4-18a2-4745-b333-537cbe91edd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "/home/niektb/sluisbrinkie-eurorack-published/Beaks Pro/Hardware/beaks_pro_8hp/FrontPCB/front_pcb.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
