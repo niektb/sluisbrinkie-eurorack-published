@@ -5435,7 +5435,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5507,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -5891,7 +5891,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6033,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6105,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -6177,7 +6177,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6365,7 +6365,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -6437,7 +6437,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6509,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -6581,7 +6581,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6653,7 +6653,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -7035,7 +7035,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -7107,7 +7107,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7332,7 +7332,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7404,7 +7404,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7476,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7548,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -7775,7 +7775,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -8158,7 +8158,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -8230,7 +8230,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8457,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8688,7 +8688,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8839,7 +8839,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9202,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9353,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -9425,7 +9425,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9497,7 @@
 			)
 			(project "front_pcb"
 				(path "/cb825f7f-7d19-4038-992c-9779ed51e0ee"
-					(reference "#PWR?")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
