@@ -7557,7 +7557,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 45.72 83.82 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7565,7 +7564,7 @@
 		(dnp no)
 		(uuid "90137477-1769-4754-acc2-77bd3ce6df35")
 		(property "Reference" "RV5"
-			(at 43.942 82.6516 0)
+			(at 43.942 84.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7573,7 @@
 			)
 		)
 		(property "Value" "B100k"
-			(at 43.942 84.963 0)
+			(at 43.942 82.677 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,7 +8238,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 45.72 133.35 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8247,7 +8245,7 @@
 		(dnp no)
 		(uuid "aee78c48-1979-4c07-93c6-6e6776cb1a1b")
 		(property "Reference" "RV6"
-			(at 43.942 132.1816 0)
+			(at 43.942 134.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8254,7 @@
 			)
 		)
 		(property "Value" "B100k"
-			(at 43.942 134.493 0)
+			(at 43.942 132.207 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8464,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 45.72 34.29 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8474,7 +8471,7 @@
 		(dnp no)
 		(uuid "c02d5bfb-bc69-4151-bbe5-25adab43df2c")
 		(property "Reference" "RV4"
-			(at 43.942 33.1216 0)
+			(at 43.942 35.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8480,7 @@
 			)
 		)
 		(property "Value" "B100k"
-			(at 43.942 35.433 0)
+			(at 43.942 33.147 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9208,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 115.57 34.29 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9219,7 +9215,7 @@
 		(dnp no)
 		(uuid "ee2c4f08-ffd8-4673-b1b8-89d05a1c01cb")
 		(property "Reference" "RV8"
-			(at 113.792 33.1216 0)
+			(at 113.792 35.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,7 +9224,7 @@
 			)
 		)
 		(property "Value" "B100k"
-			(at 113.792 35.433 0)
+			(at 113.792 33.147 0)
 			(effects
 				(font
 					(size 1.27 1.27)
