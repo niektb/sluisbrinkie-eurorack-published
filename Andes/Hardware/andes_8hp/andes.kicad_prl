@@ -33,19 +33,14 @@
       2,
       3,
       4,
-      5,
       6,
-      8,
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
       16,
-      17,
-      18,
       19,
       20,
       21,
@@ -62,10 +57,9 @@
       33,
       34,
       35,
-      36,
-      40
+      36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "0000000_00000001",
     "zone_display_mode": 0
   },
   "git": {
@@ -75,7 +69,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "beaks_pro.kicad_prl",
+    "filename": "andes.kicad_prl",
     "version": 3
   },
   "project": {
