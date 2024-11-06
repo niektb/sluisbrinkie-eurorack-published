@@ -3874,7 +3874,7 @@
 			(uuid "54486cdf-6031-42a4-820a-7d4da53a24f2")
 		)
 		(instances
-			(project "beaks_pro"
+			(project "andes"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52"
 					(page "4")
 				)
@@ -4122,7 +4122,7 @@
 			(uuid "97df80d6-5e11-4fa6-9aac-1ee3e7cc2b42")
 		)
 		(instances
-			(project "beaks_pro"
+			(project "andes"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52"
 					(page "2")
 				)
@@ -4320,7 +4320,7 @@
 			(uuid "1aa20247-a988-4dac-aa0c-f11873db2393")
 		)
 		(instances
-			(project "beaks_pro"
+			(project "andes"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52"
 					(page "3")
 				)
@@ -4378,7 +4378,7 @@
 			(uuid "c5bff18c-e10b-405f-8f1f-8ab573fb401f")
 		)
 		(instances
-			(project "beaks_pro"
+			(project "andes"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52"
 					(page "5")
 				)

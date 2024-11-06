@@ -1,0 +1,46 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "andes",
+        "revision": "",
+        "company": "",
+        "date": "2024-09-23 20:43:59"
+    },
+    "settings": {
+        "canvaslayout": "FB",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "101,53,35,59,6,82,96,33,30,71,4,99,107,62,66,69,16,87,98,9,76,34,90,14,31,1,32,49,24,2,67,18,57,102,17,95,56,60,83,72,92,51,26,22,50,25,40,63,39,74,20,55,41,79,75,12,10,64,43,100,106,81,86,73,21,84,68,47,29,15,78,85,0,28,23,42,65,104,58,52,94,45,38,54,48,70,91,13,77,8,36,44,97,37,5,89,105,11,61,103,88,19,46,93,80",
+            "Placed": "5,89,105,11,61,103,88,19,46,93,80,77,8,36,44,97,37,54,48,70,91,13,52,94,45,38,64,43,100,106,81,86,73,21,84,68,47,29,15,78,85,0,28,23,42,65,104,58,60,83,72,92,51,26,22,50,25,40,63,39,74,20,55,41,79,75,12,10,18,57,102,17,95,56,49,24,2,67,31,1,32,90,14,76,34,98,9,16,87,66,69,99,107,62,30,71,4,6,33,82,96,59,53,35,101"
+        },
+        "darkMode": true,
+        "highlightpin1": "none",
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "offsetBackRotation": false,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": false,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "netColors": {},
+        "markWhenChecked": "Placed"
+    }
+}

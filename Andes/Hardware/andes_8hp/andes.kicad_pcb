@@ -931,7 +931,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ee301f1a-e4b7-4269-bdfb-afc53536e4cd")
 		(sheetname "Root")
-		(sheetfile "beaks_pro.kicad_sch")
+		(sheetfile "andes.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.87 29.27)
@@ -2502,7 +2502,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e23d8c4c-e197-4aa6-86c8-73ae458ac7ba")
 		(sheetname "Root")
-		(sheetfile "beaks_pro.kicad_sch")
+		(sheetfile "andes.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6663,7 +6663,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c10a2fd7-82b1-4b4b-8fee-2275f22ef8d1")
 		(sheetname "Root")
-		(sheetfile "beaks_pro.kicad_sch")
+		(sheetfile "andes.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.87 -1.33)
