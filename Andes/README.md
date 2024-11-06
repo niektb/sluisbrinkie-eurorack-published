@@ -6,5 +6,6 @@ The layout of the 12HP is still work-in-progress.
 Below is a picture of the 8HP version.
 
 As of the 6th of November, a new revision of the Andes 8HP is made and this seems to have resolved the issue!
+A note with respect to the iBoms of the Andes 8HP, the female headers for connecting the STM Bluepill are not listed in the iBOM (the csv bom correctly shows them). They are 01x20 2.54mm female pinheaders (or pinsockets).
 
 ![image](https://github.com/user-attachments/assets/674d43fb-ff0f-4d68-81c7-24f099ce9fd2)
