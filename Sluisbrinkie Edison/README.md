@@ -14,3 +14,10 @@ In case you bought a kit, all SMD components are already soldered onto the board
 - 1x ISD1820 
 - IC socket for ISD1820
 - 1x electret microphone (make sure to buy one with long enough leads, in order to mount it level with the frontplate)
+
+When asssembling, you will notice a couple of jumpers. These give the option to customize the behaviour of the ISD chip. 
+<img src ="https://github.com/user-attachments/assets/aa963616-249d-49de-9f42-a43a4baeafcb" width="40%">
+  1. The first one is mandatory to solder for a correctly functioning microphone. I bridged 1 and 2 to ensure that the microphone is muted when not recording (to avoid feedback in the Feedthrough mode)
+  2. The second one can be used to enable the record button (I found that I sometimes accidentally touch the record button and thereby clearing the recorded buffer). Normally it would be recommended to solder this jumper.
+  3. Number 3 gives control over the Automatic Gain. it can be left floating to enable AGC but it can also be forced high or low to get a fixed gain.
+  4. Number 4 can be used to create a ramp on the AGC (causing a fade in).
