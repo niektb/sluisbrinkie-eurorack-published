@@ -2,6 +2,9 @@
 
 The Edison is named after the well-known scientist. Now you might be looking at the module and wondering what the link is to the scientist but Edison is the man who patented the Phonograph, a device that could be used for the recording and playback of sound, just like this module! You can record audio into the internal recording buffer, via the built-in microphone or the jack input, and play it back. It's a 6HP-wide module and is built around the ISD1820. It can produce a wide spectrum of sounds ranging from tasty lofi to absolute glitch fests. 
 
+<img src ="https://github.com/user-attachments/assets/314e5d49-fae8-406e-9831-80244e792315" width="40%">
+<img src ="https://github.com/user-attachments/assets/16af7431-11fd-4067-9678-b37c11320b7a" width="40%">
+
 In case you bought a kit, all SMD components are already soldered onto the board. To finish the build, a number of components are required: 
 - 6x Thonkiconn mono jacks
 - 2x 100kOhm potentiometer
