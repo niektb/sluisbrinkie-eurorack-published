@@ -14,7 +14,7 @@ As of the 6th of November, a new revision of the Andes 8HP is made and this seem
 
 # Build Tips and other remarks
 - A note with respect to the iBoms of the Andes 8HP, the female headers for connecting the STM Bluepill are not listed in the iBOM (the csv bom correctly shows them). They are 01x20 2.54mm female pinheaders (or pinsockets).
-- Since the potentiometers on the Front PCB don't have a bushing, it's recommended to add spacers and bolts / nuts to fixate the Front PCB and frontpanel together.
+- Since the potentiometers on the Front PCB don't have a bushing, it's recommended to add spacers and bolts / nuts to fixate the Front PCB and frontpanel together. The hole size is M2.5.
 - Green leds / knobs can be used but are fairly dim. So it's recommended to use the red color ór adjust the current limiting resistors to increase brightness.
 - The buttons I use in the picture are the 'Black Small Unskirted D - Sifam Plastic Knob' from Thonk (for size reference).
 - The USB port from the STM should be pointed towards the power connector.
