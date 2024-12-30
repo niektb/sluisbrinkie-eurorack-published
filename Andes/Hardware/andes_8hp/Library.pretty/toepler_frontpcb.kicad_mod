@@ -1,14 +1,14 @@
-(footprint "Nut_3DModel"
+(footprint "toepler_frontpcb"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 6 -4.5 0)
+		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a3fcca20-b552-4407-9df9-feae1c700c4c")
+		(uuid "8ebfc58f-9237-43d5-b94f-fdb5b289ded1")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Nut_3DModel"
-		(at 6 -3 0)
+	(property "Value" "toepler_frontpcb"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "20b9de85-bd8a-4d09-bdc1-c69789f5b8a1")
+		(uuid "e5f71610-2de8-451f-ad3f-0238860e7b94")
 		(effects
 			(font
 				(size 1 1)
@@ -29,11 +29,11 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 6 -4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7001ac22-d4e6-476a-9486-3b673cfc4967")
+		(uuid "ccbd0e50-6e91-4ae1-99be-1a1d87ab281e")
 		(effects
 			(font
 				(size 1 1)
@@ -42,11 +42,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 6 -4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a0efeb6-1ac0-4815-a9cd-3f0af8992916")
+		(uuid "83426418-705e-45dd-8fb6-d33ed80c661a")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +55,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 6 -4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "17bfd2cc-c193-423b-8855-b167027acc8e")
+		(uuid "2d25d2b4-2850-4672-afa6-07016fe093bc")
 		(effects
 			(font
 				(size 1 1)
@@ -67,12 +67,11 @@
 			)
 		)
 	)
-	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 6 -1.5 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6d9d0d57-ff05-40ea-aa58-1c7b78b6a8fc")
+		(uuid "4b1999ce-f9e2-4174-b382-3cc4e146bd70")
 		(effects
 			(font
 				(size 1 1)
@@ -80,9 +79,9 @@
 			)
 		)
 	)
-	(model "/home/niektb/Downloads/KNUT-PJ398SM.stp"
+	(model "/home/niektb/sluisbrinkie_eurorack/TOEPLER PRO/toepler_pro_frontpcb/toepler_pro_frontpcb.step"
 		(offset
-			(xyz 0 0 -12)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

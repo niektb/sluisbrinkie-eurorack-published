@@ -1,14 +1,14 @@
-(footprint "Nut_3DModel"
+(footprint "led_cap_3mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 6 -4.5 0)
+		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a3fcca20-b552-4407-9df9-feae1c700c4c")
+		(uuid "c397bb9d-2d70-4604-8d1d-24107ae58f98")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Nut_3DModel"
-		(at 6 -3 0)
+	(property "Value" "led_cap_3mm"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "20b9de85-bd8a-4d09-bdc1-c69789f5b8a1")
+		(uuid "a49ab8a9-91af-4875-998f-7415be2556e9")
 		(effects
 			(font
 				(size 1 1)
@@ -29,11 +29,11 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 6 -4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7001ac22-d4e6-476a-9486-3b673cfc4967")
+		(uuid "cb2f6eb8-c8f3-442c-ba9b-15a8fdb11d3a")
 		(effects
 			(font
 				(size 1 1)
@@ -42,11 +42,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 6 -4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a0efeb6-1ac0-4815-a9cd-3f0af8992916")
+		(uuid "6a37ab9c-ebf2-4d12-89d0-59be34c38ec0")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +55,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 6 -4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "17bfd2cc-c193-423b-8855-b167027acc8e")
+		(uuid "2f00a7c7-036e-4347-8aab-c369f0ee2244")
 		(effects
 			(font
 				(size 1 1)
@@ -67,12 +67,11 @@
 			)
 		)
 	)
-	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 6 -1.5 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6d9d0d57-ff05-40ea-aa58-1c7b78b6a8fc")
+		(uuid "45c44e4c-55c6-4878-942b-ee87116ab979")
 		(effects
 			(font
 				(size 1 1)
@@ -80,15 +79,15 @@
 			)
 		)
 	)
-	(model "/home/niektb/Downloads/KNUT-PJ398SM.stp"
+	(model "/home/niektb/sluisbrinkie_eurorack/TOEPLER PRO/toepler_pro_frontpanel/files_SMC.STEP"
 		(offset
-			(xyz 0 0 -12)
+			(xyz -6.5 11 -2.8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 -90 0)
 		)
 	)
 )
