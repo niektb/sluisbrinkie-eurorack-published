@@ -6,6 +6,8 @@ The Edison is named after the well-known scientist. Now you might be looking at 
 <img src ="https://github.com/user-attachments/assets/16af7431-11fd-4067-9678-b37c11320b7a" width="40%">
 
 ## Tips, Tricks and How-to's
+- For detailed insights in how the ISD chip works internally, refer to chapter 5 of the datasheet (in the same folder as this ReadMe).
+- The record button is debounced inside the ISD1820, causing a short delay (84ms) between the button press and the chip starting its recording.
 - Due to the way the ISD chip works, a higher CV actually means a lower pitch. Using it in conjunction with an inverter/attenuverter is recommended for rudimentary pitch tracking.
 - When pressing the trigger button (or applying a trigger on the trigger jack), the audio recorded in the buffer will play from start to finish once.
 - When pressing (and holding) the gate, the audio will play from start for as long as the gate is held high. When looping is not enabled, it will stop playback at the end of the recording buffer. If the gate is released and activated again, it will start playback from the beginning.
