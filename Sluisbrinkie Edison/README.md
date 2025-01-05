@@ -18,13 +18,13 @@ The Edison is named after the well-known scientist. Now you might be looking at 
 ## BOM for DIY Build
 In case you bought a kit, all SMD components are already soldered onto the board. To finish the build, a number of components are required: 
 - 6x Thonkiconn mono jacks
-- 2x 100kOhm potentiometer
+- 2x 100kOhm potentiometer (in my personal builds, I use the Bourns PTV09A-4020F-B104. But any equivalent will fit of course!) 
 - 1x 3mm LED (color of choice)
 - 3x sub-miniature toggle switches
 - 1x 2x5 pinheader (for eurorack power supply)
 - 1x ISD1820 
 - IC socket for ISD1820
-- 1x electret microphone (make sure to buy one with long enough leads, in order to mount it level with the frontplate). The one in the picture is the "Electret Microphone ø9.7 x 6.7 mm" from Thonk.
+- 1x electret microphone (make sure to buy one with long enough leads, in order to mount it level with the frontplate). The one in the picture is the "Electret Microphone ø9.7 x 6.7 mm" from Thonk. Other types can be used but may sound different and louder / quieter.
 
 ## Jumper Description
 When asssembling, you will notice a couple of jumpers. These give the option to customize the behaviour of the ISD chip. 
