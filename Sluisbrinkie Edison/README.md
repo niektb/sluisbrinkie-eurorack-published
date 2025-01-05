@@ -7,10 +7,10 @@ The Edison is named after the well-known scientist. Now you might be looking at 
 
 ## Tips, Tricks and How-to's
 - For detailed insights in how the ISD chip works internally, refer to chapter 5 of the datasheet (in the same folder as this ReadMe).
-- The record button is debounced inside the ISD1820, causing a short delay (84ms) between the button press and the chip starting its recording.
+- The record button is debounced inside the ISD1820, causing a short delay (nominally 84ms, depends on the sample rate set by the pitch knob/cv) between the button press and the chip starting its recording.
 - Due to the way the ISD chip works, a higher CV actually means a lower pitch. Using it in conjunction with an inverter/attenuverter is recommended for rudimentary pitch tracking.
 - When pressing the trigger button (or applying a trigger on the trigger jack), the audio recorded in the buffer will play from start to finish once.
-- When pressing (and holding) the gate, the audio will play from start for as long as the gate is held high. When looping is not enabled, it will stop playback at the end of the recording buffer. If the gate is released and activated again, it will start playback from the beginning.
+- When pressing (and holding) the gate, the audio will play from start for as long as the gate is held high. When looping is not enabled, it will stop playback at the end of the recording buffer. If the gate is released during feedback and activated again, it will start playback from the beginning.
 - Looping mode is enabled when the Loop Switch is pointing upwards. It will auto-trigger itself to play the recording buffer continuously in a loop.
 - The Input switch selects between the microphone input and the jack input (labeled Audio In). When the switch is pointing upwards, the microphone is selected. The Audio In is selected in the downward position.
 - In Feedthrough mode (Enabled when the FT Switch is pointing upwards), the microphone is muted and the Audio In can be used to feed a signal straight through the chip (without passing through the recording buffer). In this mode, the ISD functions as a noisy, lofi low-pass filter. The pitch knob and CV control the cut-off frequency. The input switch should also be adjusted such that the Audio In is selected.
