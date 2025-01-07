@@ -15,6 +15,7 @@ As of the 6th of November, a new revision of the Andes 8HP is made and this seem
 # Build Tips and other remarks
 - There is no separate software buid for the Andes, refer to this repository for firmware builds: [$peaks](https://github.com/matias-levy/peaks) 
 - A note with respect to the iBoms of the Andes 8HP, the female headers for connecting the STM Bluepill are not listed in the iBOM (the csv bom correctly shows them). They are 01x20 2.54mm female pinheaders (or pinsockets).
+- There are some different variations in bluepill pinouts, please double-check that you have the correct one, to avoid damaging anything.
 - The B10K potmeter holes are slightly bigger and can accomodate potmeters with bushing. The B100k potmeter holes can only accomodate bushless pots (would recommend using 'tall trimmer pots' but different shaft types also work).
 - If you don't use potmeters with bushing, it's recommended to add spacers and bolts / nuts to fixate the Front PCB and frontpanel together. The hole size is M2.5.
 - Green leds / knobs can be used but are fairly dim. So it's recommended to use the red color ór adjust the current limiting resistors to increase brightness.
