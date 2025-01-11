@@ -20,6 +20,7 @@ In case you bought a PCB (with assembled SMD components) and panel from me, ther
 - 1x USB-C UJ20-C-V-C-2-SMT-TR
 - 1x 2x5 pinheader (for eurorack power supply)
 - 2x 13p pinheader single row (for connecting back PCB to front PCB)
+- 2x 13p pinsocket single row (for connecting back PCB to front PCB)
 - M2.5 spacer and bolt to fixate frontpanel to front PCB (recommended to avoid stressing the PCB when plugging cables into the USB connector)
 
 ## Things that are useful to know
