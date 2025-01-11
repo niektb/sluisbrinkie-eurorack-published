@@ -23,6 +23,7 @@ In case you bought a PCB (with assembled SMD components) and panel from me, ther
 - M2.5 spacer and bolt to fixate frontpanel to front PCB (recommended to avoid stressing the PCB when plugging cables into the USB connector)
 
 ## Things that are useful to know
+- To unleash the module's potential, it is recommended that you have some programming experience and enjoy programming :)
 - The USB-C and ARGB LEDs need to be soldered with care. I would not recommend this project for the absolute beginners!
 - This is the orientation for soldering the ARGBs:
 
