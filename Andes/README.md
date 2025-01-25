@@ -6,11 +6,13 @@ So we got to work and made an upgraded version of the [Beaks](https://github.com
 <img src ="https://github.com/user-attachments/assets/483541f6-250e-47a6-bef5-1da767e67116" width="40%">
 
 # Revision log
-As of the 19th of October, the prototypes of both the 8HP and 10HP are assembled and being tested. **We did discover a few mistakes so don't use the current version just yet!**
+19-10-2024: The prototypes of both the 8HP and 10HP are assembled and being tested. **We did discover a few mistakes so don't use the current version just yet!**
 The layout of the 12HP is still work-in-progress. 
 
+06-11-2024: A new revision of the Andes 8HP is made and this seems to have resolved the issues!
 
-As of the 6th of November, a new revision of the Andes 8HP is made and this seems to have resolved the issue!
+25-01-2025: We discovered that the output has a bit of DC offset and that the knob range isn't utilized in full. Luckily, it's quite easy to improve this. It only require 2 resistors to be replaced with a different value. See the image.
+<img src ="https://github.com/user-attachments/assets/f0b8e790-1b03-467b-a5ca-789fa0548b08" width="40%">
 
 # Build Tips and other remarks
 - There is no separate software buid for the Andes, refer to this repository for firmware builds: [$peaks](https://github.com/matias-levy/peaks) 
