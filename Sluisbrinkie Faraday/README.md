@@ -4,7 +4,7 @@
 The Faraday (named after a certain Scientist) is an all-analog VCA/VCF combo using the SSI2164. It consists of three sections: VCA, SSM2040-style VCF and SVF VCF. The schematic can be found in this directory.
 
 ### VCA
-The top section is a traditional VCA. The potmeter acts as offset control. The output of the VCA is normalled to the input of the SSM2040-style filter (the connection can be broken by inserting a jack into the VCF input).
+The top section is a traditional VCA. The potmeter acts as offset control. The output of the VCA is normalled to the input of the SSM2040-style filter (the connection can be broken by inserting a jack into the VCF input). The VCA is AC-coupled and therefore not suitable to attenuate CV signals.
 
 ### SSM2040-style VCF
 The middle section is a 1-pole filter modeled after the revered SSM2040 VCF (which usually is a 4-pole filter but has a similar gain cell structure and the same type of asymmetric clipping). It's very colorful and can double as an overdrive when you overload the input. The uncolored input range is about 1Vpp. Above that, distortion will gradually be added. As it's a 1-pole filter, it's not capable of resonating (and therefore there is no resonance control).
