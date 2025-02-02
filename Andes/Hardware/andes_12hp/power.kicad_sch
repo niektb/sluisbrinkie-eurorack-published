@@ -2740,7 +2740,7 @@
 		(dnp no)
 		(uuid "06007068-65e5-4833-9fb7-c9e8324e0310")
 		(property "Reference" "D1"
-			(at 158.242 122.0216 90)
+			(at 144.526 123.9266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,8 +2748,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.6"
-			(at 158.242 124.333 90)
+		(property "Value" "BZX55C3V6"
+			(at 144.526 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k5"
 			(at 156.21 113.03 90)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 95.25 110.49 90)
 			(effects
 				(font

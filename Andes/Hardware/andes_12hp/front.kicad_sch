@@ -4922,6 +4922,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 45.72 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "159b0dea-a053-4304-a678-4138bbed395e")
+		(property "Reference" "RV5"
+			(at 43.942 84.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 43.942 82.677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 45.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01cc72ef-962b-483d-9599-e948fbbd4de9")
+		)
+		(pin "2"
+			(uuid "0f5db416-f95c-4769-8939-199e14753ef6")
+		)
+		(pin "3"
+			(uuid "e0d8ae86-8e10-4b2f-a45e-1e516a8e1126")
+		)
+		(instances
+			(project "andes_12hp"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:SW_ML6")
 		(at 149.86 111.76 0)
 		(unit 1)
@@ -5460,6 +5532,78 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 115.57 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "380e5251-574b-442f-884e-ab111d940294")
+		(property "Reference" "RV8"
+			(at 113.792 35.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 113.792 33.147 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44738570-2d3a-431c-8cc8-da6c7eb6499d")
+		)
+		(pin "2"
+			(uuid "7eadc0b9-24a8-47d1-83e0-6fdb2c0eaea6")
+		)
+		(pin "3"
+			(uuid "f62ef790-a229-4ffd-9a2d-6ec98f1736a1")
+		)
+		(instances
+			(project "andes_12hp"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -6140,6 +6284,78 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
+		(at 45.72 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd1ff69-ec4d-4b2c-8b04-789ec97aa39c")
+		(property "Reference" "RV4"
+			(at 43.942 35.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 43.942 33.147 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0188cced-c193-4359-be72-a95e4503e9a2")
+		)
+		(pin "2"
+			(uuid "a85a591d-81e4-459f-bfda-faa5f3ec40a0")
+		)
+		(pin "3"
+			(uuid "40d5e943-2c67-4b4c-a9ae-7a2c8b69f343")
+		)
+		(instances
+			(project "andes_12hp"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
 		(at 128.27 80.01 0)
 		(mirror x)
 		(unit 1)
@@ -6813,79 +7029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 45.72 83.82 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90137477-1769-4754-acc2-77bd3ce6df35")
-		(property "Reference" "RV5"
-			(at 43.942 82.6516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B100k"
-			(at 43.942 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
-			(at 45.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0eed47a9-ee81-46de-968c-8036eff99f1e")
-		)
-		(pin "2"
-			(uuid "63932139-ca0c-4405-9048-f98f69916ce2")
-		)
-		(pin "3"
-			(uuid "7388020e-d27e-44bc-b968-cbcca6566b8f")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
-					(reference "RV5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 185.42 92.71 0)
 		(unit 1)
@@ -7441,79 +7584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 45.72 133.35 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aee78c48-1979-4c07-93c6-6e6776cb1a1b")
-		(property "Reference" "RV6"
-			(at 43.942 132.1816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B100k"
-			(at 43.942 134.493 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "219d4e5c-281c-416e-919c-1a5943c63ca2")
-		)
-		(pin "2"
-			(uuid "a78f0c96-3f57-4f8f-af60-6181fab40031")
-		)
-		(pin "3"
-			(uuid "72a6f41d-1340-4f7f-a99d-178eede4e0e6")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
-					(reference "RV6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
 		(at 191.77 116.84 0)
 		(unit 1)
@@ -7644,79 +7714,6 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 45.72 34.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c02d5bfb-bc69-4151-bbe5-25adab43df2c")
-		(property "Reference" "RV4"
-			(at 43.942 33.1216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B100k"
-			(at 43.942 35.433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
-			(at 45.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffde5fc8-e6e6-47aa-b2c2-7b002b557888")
-		)
-		(pin "2"
-			(uuid "422803ed-a875-4b95-9ebe-c55730ad0aee")
-		)
-		(pin "3"
-			(uuid "6b4494ec-3a4c-4669-8baf-1551348a469f")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
-					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -8207,6 +8204,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 45.72 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2cd6989-4163-4bb3-9557-9d73d9703877")
+		(property "Reference" "RV6"
+			(at 43.942 134.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 43.942 132.207 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544bfc8f-fa7a-4834-b618-9004a50039cb")
+		)
+		(pin "2"
+			(uuid "f2a3b702-6304-4791-9f35-fe07fb9cd158")
+		)
+		(pin "3"
+			(uuid "ebd2305d-8816-42a2-abe9-5c62c5cb4de0")
+		)
+		(instances
+			(project "andes_12hp"
+				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 271.78 52.07 0)
 		(unit 1)
@@ -8267,79 +8336,6 @@
 			(project "beaks_pro"
 				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 115.57 34.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee2c4f08-ffd8-4673-b1b8-89d05a1c01cb")
-		(property "Reference" "RV8"
-			(at 113.792 33.1216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B100k"
-			(at 113.792 35.433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:Potentiometer_Alps_RK09K_Single_Vertical"
-			(at 115.57 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62ec3642-c4c7-4b7d-98b2-297831c6281b")
-		)
-		(pin "2"
-			(uuid "f2fa0639-f1d6-49aa-afe4-498bb2629058")
-		)
-		(pin "3"
-			(uuid "48d0e044-041e-427f-894b-e00382cca7a8")
-		)
-		(instances
-			(project "beaks_pro"
-				(path "/42239145-e5b3-41f8-a147-63fb75708e52/861bb9dc-57d3-4ab9-8214-8b93647e02f0"
-					(reference "RV8")
 					(unit 1)
 				)
 			)
