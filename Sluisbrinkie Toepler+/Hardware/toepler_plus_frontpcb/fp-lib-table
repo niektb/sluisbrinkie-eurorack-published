@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "toepler_pro")(type "KiCad")(uri "/home/niektb/sluisbrinkie_eurorack/TOEPLER PRO/v1/toepler_pro/toepler_pro.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "/home/niektb/sluisbrinkie-eurorack-published/Andes/Hardware/andes_8hp/Library.pretty")(options "")(descr ""))
+)

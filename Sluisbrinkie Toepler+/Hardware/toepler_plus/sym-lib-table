@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "toepler_pro-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/toepler_pro-eagle-import.kicad_sym")(options "")(descr ""))
+)

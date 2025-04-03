@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "toepler_pro")(type "KiCad")(uri "$(KIPRJMOD)/toepler_plus.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "/home/niektb/sluisbrinkie-eurorack-published/Beaks Pro/Hardware/Library.pretty")(options "")(descr ""))
+)
