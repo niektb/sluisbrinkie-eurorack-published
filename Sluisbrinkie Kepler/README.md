@@ -1,6 +1,12 @@
 # Sluisbrinkie Kepler
 The Kepler (named after a German scientist) is a digital module for 3U Eurorack systems. This module is my take at porting the Bastl Kastle Arp to Eurorack. The size of this module is about 14HP (it's a little bit smaller than most 14HP modules).
 
+02-04-2025 Update: I made a black panel as well, looks pretty neat! :) Since the panel is symmetrical, I put the text of the Drums on one side and Synth on the other.
+
+![20250401_201853](https://github.com/user-attachments/assets/00e2413c-4649-4b59-b3c7-6b91078e5716)
+
+![20250401_201741](https://github.com/user-attachments/assets/68a1cae9-3638-48ea-9bcc-f635c700db4c)
+
 ![Fully built module](https://github.com/niektb/sluisbrinkie-eurorack-published/assets/1948785/5b2d75d8-9da9-4ddc-9673-966e0306e4b7)
 
 In case you bought a PCB (with assembled SMD components) and panel from me, there are a number of things you need to finish the build:
