@@ -1,0 +1,18 @@
+Speed test notes
+
+Initial try. Using fill with black to measure how much time a display clear takes. Trying 100x.
+
+On the initial settings this took to long, 2x took 5708ms.
+
+I wondered whether Hardware SPI was actually used or if we were bitbanging things. 
+https://arduino-pico.readthedocs.io/en/latest/pins.html#spi-spi0-spi1-spi1
+
+Seems not. Also normally it's mapped to SPI0, not SPI1. After some fiddling I got the time down to 240ms. Big improvement! Back to 10.
+this yields 2279ms. Cool.
+
+Trying to up the SPI speed to 62.5MHz using tft.setSPISpeed(62500000);  // if supported
+
+Seemingly has no effect. Try using   SPI1.beginTransaction(SPISettings(62500000, MSBFIRST, SPI_MODE0));  // 62.5 MHz
+Also no effect.
+
+Maybe it already runs at this speed. Funny coincidence, I was reading on peripheral clocks and seemingly the default clock (of 133MHz)SPI clock to be limited at 48MHz, whereas downclocking to 125MHz unleashes this speed. Now with that, and changing compiler optimization to -O3 I get a 1200ms reading. Sizeable reduction! How high can we get? Let's try whether 80MHz is stable. Hmm yields the same result, I think we're capped at 62.5MHz. Still solid improvement! :)

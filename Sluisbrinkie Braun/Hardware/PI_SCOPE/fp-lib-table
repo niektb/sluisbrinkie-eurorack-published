@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PI_SCOPE")(type "KiCad")(uri "C:/GitHub/sluisbrinkie_eurorack/PI_SCOPE")(options "")(descr ""))
+)

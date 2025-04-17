@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tft_320x240")(type "KiCad")(uri "${KIPRJMOD}/tft_320x240.kicad_sym")(options "")(descr ""))
+)
