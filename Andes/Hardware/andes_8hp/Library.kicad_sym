@@ -61,10 +61,10 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -10.16 11.43 0)
+			(pin power_in line
+				(at -10.16 -11.43 0)
 				(length 2.54)
-				(name "CS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -79,10 +79,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 7.62 0)
+			(pin power_in line
+				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "DC"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -98,9 +98,9 @@
 				)
 			)
 			(pin input line
-				(at -10.16 3.81 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
-				(name "RST"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -134,9 +134,9 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -3.81 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "SCL"
+				(name "RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -151,10 +151,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -7.62 0)
+			(pin input line
+				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "VCC"
+				(name "DC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -169,10 +169,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -11.43 0)
+			(pin input line
+				(at -10.16 11.43 0)
 				(length 2.54)
-				(name "GND"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
