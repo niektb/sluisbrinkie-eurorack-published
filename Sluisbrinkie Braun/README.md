@@ -12,6 +12,7 @@ The frontjacks are connected directly to each other (without buffering) so it do
 # Project Sponsor
 This project is sponsored by PCBWay. Whether for small projects or complex designs, PCBWay offers quality PCB manufacturing, PCBA services, and CNC machining at competitive prices. Learn more at [pcbway.com](https://www.pcbway.com/).
 
+# THT Parts
 These are the through-hole parts that you need to add to finish the build:
 - 8x Thonkiconn mono jacks
 - 2x pushbuttons with at least 13mm shaft
