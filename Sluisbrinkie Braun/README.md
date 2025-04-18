@@ -3,6 +3,12 @@ The Braun is a simple, straightforward 4-channel oscilloscope, meant to fill the
 It features a RP2040 processor (meaning some mathematical operations like FFT are possible but also visualizers), a 320x240p IPS display and USB-C. The Reset and Boot button are also mounted to front, meaning you never have to remove the module from your rack when writing firmware :)
 The frontjacks are connected directly to each other (without buffering) so it doesn't really matter which one you use as input. It is compatible with both Arduino and CircuitPython, offering a friendly programming environment. The flash size is 128Mbit, meaning there is ample space for storing data.
 
+<img src="https://github.com/user-attachments/assets/434dca47-15a8-4792-b1c6-9f4da315542c" width="33%">
+
+<img src="https://github.com/user-attachments/assets/651cb765-01ba-476c-b398-cb38701e72fd" width="33%">
+
+<img src="https://github.com/user-attachments/assets/bcc37b46-77e7-41fd-9a2b-22aeed220083" width="33%">
+
 In case you bought a PCB (with assembled SMD components) and panel from me, there are a number of things you need to finish the build:
 - 8x Thonkiconn mono jacks
 - 2x pushbuttons with at least 13mm shaft
