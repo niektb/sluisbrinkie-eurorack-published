@@ -9,19 +9,18 @@ The frontjacks are connected directly to each other (without buffering) so it do
 
 <img src="https://github.com/user-attachments/assets/bcc37b46-77e7-41fd-9a2b-22aeed220083" width="33%">
 
-In case you bought a PCB (with assembled SMD components) and panel from me, there are a number of things you need to finish the build:
+# Project Sponsor
+This project is sponsored by PCBWay. Whether for small projects or complex designs, PCBWay offers quality PCB manufacturing, PCBA services, and CNC machining at competitive prices. Learn more at [pcbway.com](https://www.pcbway.com/).
+
+These are the through-hole parts that you need to add to finish the build:
 - 8x Thonkiconn mono jacks
 - 2x pushbuttons with at least 13mm shaft
-- 2x 10kOhm Type B potentiometer (Bourns PVT09 series are used in my builds)
-- 1x encoder knob (see note below)
-- 1x encoder
+- 1x encoder knob
+- 1x encoder (see note below)
 - 1x USB-C UJ20-C-V-C-2-SMT-TR
 - 1x 2x5 pinheader (for eurorack power supply)
 - M2.5 spacers and bolts to fixate display
-- GMT020-02-7p display
-
-# Project Sponsor
-This project is sponsored by PCBWay. Whether for small projects or complex designs, PCBWay offers quality PCB manufacturing, PCBA services, and CNC machining at competitive prices. Learn more at [pcbway.com](https://www.pcbway.com/).
+- GMT020-02-7P display
 
 ## Known issues
 The current design has a few points that need to be improved, being:
