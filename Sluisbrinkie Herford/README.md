@@ -1,4 +1,4 @@
-# Sluisbrinkie Braun
+# Sluisbrinkie Herford
 The Herford is a modern interpretation of a classic 4U design, combining a VCS with Track & Hold and Sample & Hold functionality.
 
 ![20250413_142147_011](https://github.com/user-attachments/assets/b5834989-4b89-4e04-a7d3-b79b510a114c)
