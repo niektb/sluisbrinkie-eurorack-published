@@ -1,4 +1,4 @@
-(footprint "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
+(footprint "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3D"
+	(property "Value" "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 		(at 0 5 180)
 		(layer "F.Fab")
 		(uuid "464b1a29-49d5-4249-ad50-092cf78383c9")
@@ -333,9 +333,9 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/sluisbrinkie-eurorack-published/Andes/Hardware/andes_8hp/STEP/Thonkiconn - PJ398SM.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.wrl"
 		(offset
-			(xyz 0 -6.5 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

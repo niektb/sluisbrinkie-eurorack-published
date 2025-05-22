@@ -1,0 +1,134 @@
+(footprint "OLED_0.91inch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 19.5 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bf3edadd-7b3b-46e5-b98c-745b2fb7ffdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "OLED_0.91inch"
+		(at 19.5 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35f02137-e2a0-447e-b02c-9e8862990b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2ee7695-6044-442b-a65a-8923309fb8a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91188463-c670-4fb5-a1ec-dc31fd05c3f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start 0 0)
+		(end 38 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "208f480b-e5a5-4049-b62f-9cb892903e89")
+	)
+	(fp_rect
+		(start 5 0.1)
+		(end 35 11.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e26013b8-d2d7-4d3e-869f-d710b690c029")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 19.5 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "079b870f-e18b-42a6-8abb-62f1f16a028c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.5 2.19)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26878c9f-a35f-402d-a2b3-2ffec985d6d1")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5 4.73)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc86fc93-d3f2-4821-abae-5a9d90e426bd")
+	)
+	(pad "3" thru_hole circle
+		(at 1.5 7.27)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8052d0ce-5227-4483-8505-815c3a221183")
+	)
+	(pad "4" thru_hole circle
+		(at 1.5 9.81)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc5c3561-3505-464b-a500-dfb30460dcfd")
+	)
+	(embedded_fonts no)
+	(model "C:/GitHub/sluisbrinkie-eurorack-published/Andes/Hardware/andes_8hp/STEP/OLED_0.91_128x32.stp"
+		(offset
+			(xyz 19 -6 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
