@@ -67,7 +67,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/sluisbrinkie_eurorack/MI_META_MODULE/kicad/MMM_main/MMM_main/MMM_main.step"
+	(model "C:/GitHub/sluisbrinkie_eurorack/MI_META_MODULE/kicad/MMM_main/MMM_main.step"
 		(offset
 			(xyz 0 0 -12.5)
 		)
