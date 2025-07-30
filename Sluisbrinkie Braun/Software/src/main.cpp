@@ -1,8 +1,9 @@
+#include <Arduino.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7789.h>
 #include <SPI.h>
-#include "encoder.h"
 #include <math.h>
+#include "encoder.h"
 
 #define TFT_CS 9
 #define TFT_RST 15
@@ -33,7 +34,6 @@ int prevY[numChannels];
 int currentX = 0;
 
 Encoder encoder = Encoder(ENCA, ENCB);
-
 
 void setup() {
   Serial.begin(115200);
