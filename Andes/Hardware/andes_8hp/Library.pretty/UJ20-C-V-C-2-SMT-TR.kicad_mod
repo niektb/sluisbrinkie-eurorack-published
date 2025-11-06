@@ -1,7 +1,7 @@
 (footprint "UJ20-C-V-C-2-SMT-TR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 5.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b4ea9240-3258-4822-b139-013ce53f3e11")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4673e27c-104b-4e01-8d7e-1e474d4aebb5")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6c2b3dbe-04b6-40d9-9730-b4e83d72c6e9")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "75748974-a010-4e98-85ae-35ad8023375a")
 	)
@@ -300,5 +287,17 @@
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4bc054fa-1a02-45e1-8a86-a59fda706543")
+	)
+	(embedded_fonts no)
+	(model "C:/GitHub/KiCad_library/Locrius_KiCad.3dshapes/TYPE-C-SMD_HX-TYPE-C-16P-180-LT-H9.3-VERT-SOCKET.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
