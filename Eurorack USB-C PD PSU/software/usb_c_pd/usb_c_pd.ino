@@ -12,6 +12,8 @@ PD_UFP_c PD_UFP;
 Adafruit_NeoPixel strip(1, PIN_RGB, NEO_GRB + NEO_KHZ800);
 
 void setup() {
+  Serial.begin(9600);
+
   pinMode(PIN_FLT_N, INPUT);
   pinMode(PIN_IMON, INPUT);
   pinMode(PIN_PGOOD, INPUT);
@@ -41,11 +43,15 @@ void loop() {
 
   if (PD_UFP.is_power_ready()) {    // PD handshake success
     digitalWrite(PIN_POWER_EN, 1);  // enable power
+    digitalWrite(PIN_LED1, 1);
+    digitalWrite(PIN_LED2, 1);
     if (pgood) {                    // if PGOOD also high we start monitoring current
       int current = analogRead(PIN_IMON);
     }
   } else {
     digitalWrite(PIN_POWER_EN, 0);  // enable power
+    digitalWrite(PIN_LED1, 0);
+    digitalWrite(PIN_LED2, 0);
   }
   strip.setPixelColor(0, strip.Color(flt * 50, pgood * 50, map(current, 0, 1023, 0, 255)));
   strip.show();

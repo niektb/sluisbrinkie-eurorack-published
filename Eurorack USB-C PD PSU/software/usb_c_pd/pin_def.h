@@ -35,7 +35,7 @@
 #define PD4 4
 #define PD0 3
 #define PD1 2
-
+#define PD5 30
 #define PD3 0
 #define PD2 1
 #define PB0 17
