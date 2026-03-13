@@ -1,5 +1,0 @@
-Insert the following lines into makeboards.py which can be found in C:\Users\[username]\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\4.5.1\tools
-and run 'python3 makeboards.py > ../boards.txt' to regenerate boards.txt
-
-# Sluisbrinkie
-MakeBoard("Braun", "rp2040", "Sluisbrinkie", "Braun", "0x2e8a", "0xf00a", 250, "BRAUN_RP2040", 16, 0, "boot2_w25x10cl_4_padded_checksum")
