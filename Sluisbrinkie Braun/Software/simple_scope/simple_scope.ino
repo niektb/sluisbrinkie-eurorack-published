@@ -4,13 +4,13 @@
 #include "encoder.h"
 #include <math.h>
 
-#define TFT_CS 9
+#define TFT_CS 1
 #define TFT_RST 15
 #define TFT_DC 8
-#define TFT_SCK 10
-#define TFT_MOSI 11
+#define TFT_SCK 2
+#define TFT_MOSI 3
 
-Adafruit_ST7789 tft = Adafruit_ST7789(&SPI1, TFT_CS, TFT_DC, TFT_RST);
+Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 
 // Exponential time base parameters
 const float minDisplayTime = 0.005;  // 5 ms minimum display span
@@ -19,7 +19,7 @@ const int encoderMax = 1000;         // Encoder value range
 
 const int numChannels = 4;
 const int displayWidth = 240;
-const int displayHeight = 320;  // Portrait mode height
+const int displayHeight = 320;  // Portrait mode height, compensate for pixels that are covered by frontpanel
 int rowHeight = displayHeight / numChannels;
 
 #define numDisplayTimes 8
@@ -40,10 +40,10 @@ void setup() {
   delay(2000);
   Serial.println(F("Hello World!"));
 
-  SPI1.setSCK(TFT_SCK);
-  SPI1.setTX(TFT_MOSI);
-  SPI1.setCS(TFT_CS);
-  SPI1.begin();
+  SPI.setSCK(TFT_SCK);
+  SPI.setTX(TFT_MOSI);
+  SPI.setCS(TFT_CS);
+  SPI.begin();
 
   tft.init(displayWidth, displayHeight);
   tft.setRotation(2);
