@@ -2,13 +2,13 @@
 #include <Adafruit_ST7789.h>
 #include <SPI.h>
 
-#define TFT_CS 9
+#define TFT_CS 1
 #define TFT_RST 15
 #define TFT_DC 8
-#define TFT_SCK 10
-#define TFT_MOSI 11
+#define TFT_SCK 2
+#define TFT_MOSI 3
 
-Adafruit_ST7789 tft = Adafruit_ST7789(&SPI1, TFT_CS, TFT_DC, TFT_RST);
+Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 
 const int displayWidth = 240;
 const int displayHeight = 320;
@@ -18,11 +18,6 @@ void setup() {
   delay(2000);
   while (!Serial) delay(10);
   Serial.println(F("Hello! ST77xx TFT Test"));
-
-  SPI1.setSCK(TFT_SCK);
-  SPI1.setTX(TFT_MOSI);
-  SPI1.setCS(TFT_CS);
-  SPI1.begin();
 
   tft.init(displayWidth, displayHeight);
   tft.setRotation(2);
@@ -36,7 +31,7 @@ void setup() {
   unsigned long t0 = millis();
 
   for (int i = 0; i < 10; i++) {
-    tft.fillRect(0, 0, 240, 320, ST77XX_BLACK);
+    tft.fillRect(0, 0, 240, 320, ST77XX_WHITE);
   }
 
   unsigned long t1 = millis();
